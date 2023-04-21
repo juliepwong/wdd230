@@ -1,0 +1,9 @@
+<style>
+.item1 {grid-area: header;}
+.item2 {grid-area: main;}
+.item3 {grid-area: footer;}
+.grid-container {
+    display: grid;
+    grid-template-areas: 'header header header header' 'main main main main' 'footer footer footer footer';
+}
+</style>
