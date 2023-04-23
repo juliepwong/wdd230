@@ -19,7 +19,7 @@ h1 {
 h2 {
     padding: 10px;
     text-align: left;
-    color: #05B3A7;
+    color: black;
     font-family: 'Bree Serif', serif;
     font-size: 20px;
     line-height: 10px;
@@ -39,6 +39,7 @@ p {
     justify-content: left;
     text-align: center;
     padding: 10px;
+    background-color: #05B3A7;
 }
 
 /* .item1 {grid-area: header;}
