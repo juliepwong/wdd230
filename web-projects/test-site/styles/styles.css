@@ -1,14 +1,15 @@
 .grid-container {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-areas: 'header header header' 'main main main' 'footer footer footer';
+    gap: 15px;
     background-color: blue;
     padding: 20px;
 }
 
-.grid-item {
+.grid-container > div {
     background-color: lightseagreen;
+    text-align: center;
     padding: 20px;
     font-size: 20px;
-    text-align: left;
 }
 
