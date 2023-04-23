@@ -9,10 +9,11 @@ body{
 h1 {
     padding: 10px;
     text-align: left;
-    color: #05B3A7;
+    color: black;
     font-family: 'Bree Serif', serif;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 10px;
+    background-color: #05B3A7;
 }
 
 h2 {
