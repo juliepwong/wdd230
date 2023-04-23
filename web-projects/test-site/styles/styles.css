@@ -51,9 +51,9 @@ p {
     background-color: #05B3A7;
 }
 
-.item1 {grid-area: header;}
+/* .item1 {grid-area: header;}
 .item2 {grid-area: main;}
-.item3 {grid-area: footer;}
+.item3 {grid-area: footer;} */
 
 /* .grid-container {
     display: grid;
