@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
+body{
+    background-color: #376CA9; 
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    padding: 10px;
+    text-align: center;
+    color: #05B3A7;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.25em;
+    line-height: 1.1em;
+}
+
+p {
+    padding: 10px;
+    color: #05B3A7;
+    line-height: 1.5em;
+    font-size: .75em;
+    font-family: 'Bree Serif', serif;
+}
 
 .item1 {grid-area: header;}
 .item2 {grid-area: main;}
