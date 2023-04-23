@@ -7,17 +7,16 @@ body{
 }
 
 h1 {
-    padding: 10px;
+    padding: 20px;
     text-align: left;
-    color: black;
+    color: white;
     font-family: 'Bree Serif', serif;
     font-size: 35px;
     line-height: 10px;
-    background-color: #05B3A7;
 }
 
 h2 {
-    padding: 10px;
+    padding: 20px 20px 20px 20px;
     text-align: left;
     color: black;
     font-family: 'Bree Serif', serif;
@@ -26,27 +25,37 @@ h2 {
 }
 
 p {
-    padding: 10px;
+    padding-left: 40px;
     color: black;
     line-height: 5px;
     font-size: 20px;
     font-family: 'Bree Serif', serif;
 }
 
-.container {
-    display: flex;
+.footer {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.grid-container {
+    grid-template-areas: 'header header header' 'main main main' 'footer footer footer';
+    display: grid;
     align-items: center;
     justify-content: left;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     background-color: #05B3A7;
 }
 
-/* .item1 {grid-area: header;}
+.item1 {grid-area: header;}
 .item2 {grid-area: main;}
 .item3 {grid-area: footer;}
 
-.grid-container {
+/* .grid-container {
     display: grid;
     grid-template-areas: 'header header header' 'main main main' 'footer footer footer';
     gap: 15px;
