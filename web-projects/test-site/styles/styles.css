@@ -41,6 +41,10 @@ p {
     line-height: 20px;
 }
 
+#time {
+    color: yellow;
+}
+
 .grid-container {
     grid-template-areas: 'header header header' 'main main main' 'footer footer footer';
     display: grid;
