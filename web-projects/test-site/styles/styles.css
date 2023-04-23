@@ -8,7 +8,7 @@ body{
 
 h1, h2 {
     padding: 10px;
-    text-align: center;
+    text-align: left;
     color: #05B3A7;
     font-family: 'Bree Serif', serif;
     font-size: 40px;
@@ -17,13 +17,13 @@ h1, h2 {
 
 p {
     padding: 10px;
-    color: #05B3A7;
+    color: black;
     line-height: 5px;
     font-size: 20px;
     font-family: 'Bree Serif', serif;
 }
 
-.item1 {grid-area: header;}
+/* .item1 {grid-area: header;}
 .item2 {grid-area: main;}
 .item3 {grid-area: footer;}
 
@@ -40,5 +40,5 @@ p {
     text-align: center;
     padding: 20px;
     font-size: 20px;
-}
+} */
 
