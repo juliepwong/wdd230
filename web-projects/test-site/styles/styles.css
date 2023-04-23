@@ -32,6 +32,13 @@ p {
     font-family: 'Bree Serif', serif;
 }
 
+.container {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    padding: 20px;
+}
+
 /* .item1 {grid-area: header;}
 .item2 {grid-area: main;}
 .item3 {grid-area: footer;}
