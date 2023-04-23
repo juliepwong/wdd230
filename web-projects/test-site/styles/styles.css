@@ -6,12 +6,21 @@ body{
     padding: 0;
 }
 
-h1, h2 {
+h1 {
     padding: 10px;
     text-align: left;
     color: #05B3A7;
     font-family: 'Bree Serif', serif;
     font-size: 40px;
+    line-height: 10px;
+}
+
+h2 {
+    padding: 10px;
+    text-align: left;
+    color: #05B3A7;
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
     line-height: 10px;
 }
 
