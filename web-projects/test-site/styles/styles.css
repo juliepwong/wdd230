@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+
+.item1 {grid-area: header;}
+.item2 {grid-area: main;}
+.item3 {grid-area: footer;}
+
 .grid-container {
     display: grid;
     grid-template-areas: 'header header header' 'main main main' 'footer footer footer';
