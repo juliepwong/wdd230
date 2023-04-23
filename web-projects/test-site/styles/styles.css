@@ -34,9 +34,10 @@ p {
 
 .container {
     display: flex;
-    align-items: left;
-    justify-content: center;
-    padding: 20px;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    padding: 10px;
 }
 
 /* .item1 {grid-area: header;}
