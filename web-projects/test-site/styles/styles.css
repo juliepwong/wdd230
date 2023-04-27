@@ -35,14 +35,14 @@ p {
 .footer {
     padding: 10px;
     text-align: center;
-    color: white;
+    color: Black;
     font-family: 'Bree Serif', serif;
     font-size: 15px;
     line-height: 20px;
 }
 
 #time {
-    color: yellow;
+    color: Black;
 }
 
 .grid-container {
