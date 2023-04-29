@@ -45,7 +45,22 @@ p {
     color: Black;
 }
 
-.grid-container {
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.flex-container > .div-container {
+    background-color: #05B3A7;
+    width: 500px;
+    margin: 200px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+/* .grid-container {
     grid-template-areas: 'header header header' 'main main main' 'footer footer footer';
     display: grid;
     align-items: center;
@@ -53,7 +68,7 @@ p {
     text-align: center;
     padding: 20px;
     background-color: #05B3A7;
-}
+} */
 
 /* .item1 {grid-area: header;}
 .item2 {grid-area: main;}
