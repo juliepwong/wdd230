@@ -1,16 +1,16 @@
 .wrapper {
     display: grid;
     grid-gap: 7px;
-      max-width: 760px;
+    max-width: 760px;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 100px;
     grid-auto-columns: 100px;
     grid-template-areas:
       "header"
-          "design1"
+      "design1"
       "design2"
       "design3"
-          "footer";
+      "footer";
   }
   
   header, design1, design2, design3, footer {
@@ -47,8 +47,8 @@
   .footer {
     grid-column-start: 1;
     grid-column-end: 4;
-    grid-row-start: 5;
-    grid-row-end: 5;
+    grid-row-start: 10;
+    grid-row-end: 10;
     background-color: turquoise;
     color: black;
     padding: 40px;
