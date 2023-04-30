@@ -25,7 +25,7 @@ h2 {
 }
 
 p {
-    padding-left: 40px;
+    padding-left: 75px;
     color: black;
     line-height: 5px;
     font-size: 20px;
@@ -44,21 +44,6 @@ p {
 #time {
     color: Black;
 }
-
-/* .flex-container {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-}
-
-.flex-container > .div-container {
-    background-color: #05B3A7;
-    width: 500px;
-    margin: 200px;
-    text-align: center;
-    line-height: 50px;
-    font-size: 20px;
-} */
 
 .grid-container {
     grid-template-areas: 'header header header' 'main main main' 'footer footer footer';
