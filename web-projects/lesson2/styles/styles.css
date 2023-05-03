@@ -60,3 +60,8 @@
   p {
     text-align: center;
   }
+
+  .center {
+    display: block;
+    margin: auto;
+  }
