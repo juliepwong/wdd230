@@ -41,7 +41,20 @@
     grid-area: design1 design2 design3 center;
     justify-content: center;
     text-align: center;
+    font-size: 17px;
+  }
+
+    
+  p {
+    text-align: center;
+    margin: 10px 10px 10px 10px;
     font-size: 15px;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .center {
+    display: block;
+    margin: auto;
   }
   
   .footer {
@@ -55,13 +68,4 @@
     font-size: 20px;
     grid-area: footer center;
     text-align:center;
-  }
-  
-  p {
-    text-align: center;
-  }
-
-  .center {
-    display: block;
-    margin: auto;
   }
