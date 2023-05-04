@@ -70,7 +70,7 @@ p {
   text-align:center;
 }
 
-@media only screen and (min-width: 300px) {
+/* @media only screen and (min-width: 300px) {
   .wrapper {
     display: grid;
     grid-gap: 20px;
@@ -140,7 +140,7 @@ p {
     grid-row-end: 75;
     padding: 15px 5px 5px 5px;
   }
-}
+} */
 
 @media only screen and (min-width: 500px) {
   .wrapper {
