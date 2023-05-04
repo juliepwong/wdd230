@@ -71,8 +71,8 @@
     h3, .design3  {
       grid-column-start: 1;
       grid-column-end: 10;
-      grid-row-start: 49;
-      grid-row-end: 60;
+      grid-row-start: 8;
+      grid-row-end: 10;
       grid-gap: 10px;
       padding: 20px;
       font-size: 20px;
@@ -86,8 +86,8 @@
       font-size: 15px;
       grid-column-start: 1;
       grid-column-end: 10;
-      grid-row-start: 72;
-      grid-row-end: 75;
+      grid-row-start: 20;
+      grid-row-end: 25;
       padding: 15px 5px 5px 5px;
       background-color: turquoise;
     }
