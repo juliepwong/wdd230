@@ -47,8 +47,8 @@
   h2, .design2  {
     grid-column-start: 1;
     grid-column-end: 10;
-    grid-row-start: 26;
-    grid-row-end: 40;
+    grid-row-start: 15;
+    grid-row-end: 20;
     grid-gap: 10px;
     padding: 20px;
     font-size: 10px;
@@ -72,8 +72,7 @@
     font-size: 15px;
     grid-column-start: 1;
     grid-column-end: 10;
-    grid-row-start: 72;
-    grid-row-end: 75;
-    padding: 15px 5px 5px 5px;
+    grid-row-start: 30;
+    grid-row-end: 32;
   }
 }
