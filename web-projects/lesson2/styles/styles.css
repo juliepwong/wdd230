@@ -13,9 +13,18 @@
     "footer";
 }
 
-.header .footer {
+h1 {
     border: 1px solid #333;
     box-shadow: 1px 1px 1px #333;
+    font-size: 23px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 17px;
 }
 
 .header {
@@ -41,7 +50,6 @@ h1, h2, h3, .design1 .design2 .design3 {
   grid-area: center;
   justify-content: center;
   text-align: center;
-  font-size: 17px;
 }
 
   
