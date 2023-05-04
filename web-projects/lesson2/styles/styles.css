@@ -142,7 +142,7 @@ p {
   }
 } */
 
-@media only screen and (min-width: 500px) {
+/* @media only screen and (min-width: 500px) {
   .wrapper {
     display: grid;
     grid-gap: 20px;
@@ -221,4 +221,4 @@ p {
     padding: 15px 5px 5px 5px;
     background-color: turquoise;
   }
-}
+} */
