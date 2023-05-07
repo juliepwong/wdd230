@@ -43,6 +43,7 @@ img {
 
 .grid-container {
     background-color: #F2CDAC;
+    text-align: center;
 }
 
 .header {
@@ -50,11 +51,13 @@ img {
     font-family: 'DM Serif Display', serif;
     color: #4C4A59; 
     text-align: center;
+    padding-left: 500px;
 }
 
 .footer {
     font-size: small;
     font-family: 'Bree Serif', serif;
+    padding-left: 500px;
 }
 
 .center {
