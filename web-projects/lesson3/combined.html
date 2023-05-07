@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Julie Wong" />
+    <meta name="description" content="Julie Wong BYU-Idaho WDD 230: Web Frontend Development Assignment Portal" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Julie Wong W03 Activity</title>
+    <link rel="stylesheet" href="styles/common.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+  </head>
+  <body>
 <header>
 	<h1>Julie Wong</h1>
 </header>
@@ -27,15 +39,17 @@
 		</p>
 	</article>
 </main>
-<footer>
-    <footer>&copy; 2023 .:|:. Julie Wong .:|:. California</footer>
-    <footer>Last Updated: <span id="time"></span> <script>
-        let text = document.lastModified; document.getElementById("time").innerHTML = text;
-    </script>
-    </footer>
-    <footer id="time">
-        <script>
-            let text = document.lastModified; document.getElementById("time").innerHTML = text;
-        </script>
-    </footer>
-</footer>
+<div class="grid-container">
+    <div class="footer">
+        <footer>&copy; 2023 .:|:. Julie Wong .:|:. California</footer>
+        <footer>Last Updated: <span id="time"></span>
+        </footer>
+        <footer id="time">
+            <script>
+                let text = document.lastModified; document.getElementById("time").innerHTML = text;
+            </script>
+        </footer>
+    </div>
+</div>
+</body>
+</html>
