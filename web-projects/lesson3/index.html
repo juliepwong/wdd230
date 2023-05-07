@@ -22,5 +22,17 @@
         <h1>Site Purpose</h1>
         <p>The purpose of this website is to help whoever may be looking for something to do in their city. Or in the city that they are visiting. I want to practice making a well designed site that is easy for anyone to be able to search.</p>
     </div>
+    <div class="grid-container">
+        <div class="footer">
+            <footer>&copy; 2023 .:|:. Julie Wong .:|:. California</footer>
+            <footer>Last Updated: <span id="time"></span>
+            </footer>
+            <footer id="time">
+                <script>
+                    let text = document.lastModified; document.getElementById("time").innerHTML = text;
+                </script>
+            </footer>
+        </div>
+    </div>
   </body>
 </html>
