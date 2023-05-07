@@ -12,21 +12,24 @@
 }
 
 h1, h2, p {
-    font-family: 'Bree Serif', serif;
-    font-family: 'DM Serif Display', serif;
+    /* font-family: 'Bree Serif', serif;
+    font-family: 'DM Serif Display', serif; */
     padding: 20px;
 }
 
 h1 {
     font-size: x-large;
+    font-family: 'DM Serif Display', serif;
 }
 
 h2 {
     font-size: large;
+    font-family: 'DM Serif Display', serif;
 }
 
 p {
     font-size: medium;
+    font-family: 'Bree Serif', serif;
 }
 
 img {
