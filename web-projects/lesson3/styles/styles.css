@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
+.grid-container {
+    grid-template-areas: 'header header header' 'main main main' 'footer footer footer';
+    display: grid;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    padding: 20px;
+    /* background-color: #05B3A7; */
+}
+
 h1, h2, p {
     font-family: 'Bree Serif', serif;
+    padding: 20px;
 }
 
 h1 {
@@ -19,4 +30,5 @@ p {
 img {
     width: 200px;
     border-radius: 15px;
+    padding: 10px;
 }
