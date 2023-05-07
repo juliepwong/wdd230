@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet"');
 
 .grid-container {
     grid-template-areas: 'header header header' 'main main main' 'footer footer footer';
@@ -12,6 +13,7 @@
 
 h1, h2, p {
     font-family: 'Bree Serif', serif;
+    font-family: 'DM Serif Display', serif;
     padding: 20px;
 }
 
