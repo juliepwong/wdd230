@@ -42,7 +42,7 @@ img {
 }
 
 .grid-container {
-    color: #F2CDAC;
+    background-color: #F2CDAC;
 }
 
 .header {
@@ -50,5 +50,6 @@ img {
 }
 
 .footer {
-
+    font-size: small;
+    font-family: 'Bree Serif', serif;
 }
