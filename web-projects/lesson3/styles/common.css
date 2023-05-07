@@ -25,6 +25,7 @@ main,
 footer {
 	max-width: 767px;
 	margin: 0 auto;
+	text-align: center;
 }
 
 h1 {
