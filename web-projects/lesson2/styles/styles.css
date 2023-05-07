@@ -235,8 +235,8 @@ p {
     font-size: 15px;
     grid-column-start: 1;
     grid-column-end: 5;
-    grid-row-start: 22;
-    grid-row-end: 22;
+    grid-row-start: 23;
+    grid-row-end: 23;
     padding: 10px 5px 5px 5px;
     background-color: turquoise;
   }
