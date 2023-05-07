@@ -1,1 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+p {
+    font-family: 'Bree'+'Serif';
+}
