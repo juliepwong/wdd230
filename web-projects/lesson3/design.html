@@ -20,5 +20,17 @@
         <p> Titles and header fonts would be the DM Serif Display because they have a darker bold to it.</p>
         <p> The paragraphs and footer would be the Bree Serif font.</p>
     </div>
+    <div class="grid-container">
+        <div class="footer">
+            <footer>&copy; 2023 .:|:. Julie Wong .:|:. California</footer>
+            <footer>Last Updated: <span id="time"></span>
+            </footer>
+            <footer id="time">
+                <script>
+                    let text = document.lastModified; document.getElementById("time").innerHTML = text;
+                </script>
+            </footer>
+        </div>
+    </div>
   </body>
   </html>

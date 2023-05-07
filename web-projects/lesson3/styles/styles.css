@@ -41,10 +41,14 @@ img {
     padding: 10px;
 }
 
-.background {
+.grid-container {
     color: #F2CDAC;
 }
 
 .header {
     color: #4C4A59; 
+}
+
+.footer {
+
 }
