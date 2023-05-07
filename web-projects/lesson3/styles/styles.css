@@ -49,9 +49,16 @@ img {
     font-size: xx-large;
     font-family: 'DM Serif Display', serif;
     color: #4C4A59; 
+    text-align: center;
 }
 
 .footer {
     font-size: small;
     font-family: 'Bree Serif', serif;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+    padding: 100px;
 }
