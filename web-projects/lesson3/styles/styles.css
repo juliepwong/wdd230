@@ -20,20 +20,31 @@ h1, h2, p {
 h1 {
     font-size: x-large;
     font-family: 'DM Serif Display', serif;
+    color: #1B7F7A;
 }
 
 h2 {
     font-size: large;
     font-family: 'DM Serif Display', serif;
+    color: #4CABA6;
 }
 
 p {
     font-size: medium;
     font-family: 'Bree Serif', serif;
+    color:#0897B4;
 }
 
 img {
     width: 200px;
     border-radius: 15px;
     padding: 10px;
+}
+
+.background {
+    color: #F2CDAC;
+}
+
+.header {
+    color: #4C4A59; 
 }
