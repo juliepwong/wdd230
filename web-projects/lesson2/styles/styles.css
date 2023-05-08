@@ -207,8 +207,8 @@ p {
   h2, .design2  {
     grid-column-start: 1;
     grid-column-end: 10;
-    grid-row-start: 26;
-    grid-row-end: 40;
+    grid-row-start: 27;
+    grid-row-end: 41;
     grid-gap: 10px;
     padding: 20px;
     font-size: 20px;
@@ -218,8 +218,8 @@ p {
     font-family: 'Bree Serif', serif;
     grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 13;
-    grid-row-end: 15;
+    grid-row-start: 15;
+    grid-row-end: 17;
     grid-gap: 10px;
     padding: 20px;
     font-size: 20px;
@@ -235,8 +235,9 @@ p {
     font-size: 15px;
     grid-column-start: 1;
     grid-column-end: 5;
-    grid-row-start: 23;
-    grid-row-end: 23;
+    grid-row-start: 39;
+    grid-row-end: 39;
     padding: 10px 5px 5px 5px;
     background-color: turquoise;
   }
+}
