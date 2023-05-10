@@ -12,7 +12,7 @@ body {
 /* phone or baseline views **************************/
 header,
 footer {
-    background-color: #F2CDAC;
+    background-color: #4CABA6;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
@@ -70,7 +70,7 @@ main article {
 	margin: 1rem;
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	padding: 1rem;
-	background-color: lightseagreen;
+	background-color: #F2CDAC;
 }
 main article ul {
 	margin: 1rem 0 0 1rem;
