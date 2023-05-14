@@ -10,9 +10,15 @@
     padding: 20px;
 }
 
+.header {
+    font-size: xx-large;
+    font-family: 'DM Serif Display', serif;
+    color: #4C4A59; 
+    text-align: center;
+    padding-left: 500px;
+}
+
 h1, h2, p {
-    /* font-family: 'Bree Serif', serif;
-    font-family: 'DM Serif Display', serif; */
     padding: 20px;
 }
 
@@ -40,40 +46,9 @@ img {
     padding: 10px;
 }
 
-/* .grid-container {
-    background-color: #F2CDAC;
-    text-align: center;
-} */
-
-.header {
-    font-size: xx-large;
-    font-family: 'DM Serif Display', serif;
-    color: #4C4A59; 
-    text-align: center;
-    padding-left: 500px;
-}
-
 .footer {
     font-size: small;
     font-family: 'Bree Serif', serif;
     padding-left: 500px;
     text-align: center;
-}
-
-.center {
-    text-align: center;
-    margin: auto;
-    padding: 50x;
-}
-
-nav li {
-    font-family: 'DM Serif Display', serif;
-    color: black;
-    display: grid;
-    max-width: 1500px;
-    background-color: #0897B4;
-    text-align: center;
-    font-size: 15px;
-    transition: 1s;
-    padding: 5px;
 }
