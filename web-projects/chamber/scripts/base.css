@@ -1,19 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet"');
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1f);
-    padding: 20px;
+.grid {
+    grid-template-areas: 'header header header' 'main main main' 'footer footer footer';
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;    
+    background-color: #F2CDAC;
+    text-align: center;
 }
 
-body {
-	font-size: 16px;
-	font-family: 'DM Serif Display', serif;
+.header {
+    font-size: xx-large;
+    font-family: 'DM Serif Display', serif;
+    color: #4C4A59; 
+    text-align: center;
+    padding-left: 500px;
 }
 
-time {
-    margin: 1rem;
-    padding: 1rem 1rem;
-    background-color: ;
+.footer {
+    font-size: small;
+    font-family: 'Bree Serif', serif;
+    padding-left: 500px;
 }
-
