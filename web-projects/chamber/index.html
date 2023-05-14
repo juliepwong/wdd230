@@ -7,48 +7,54 @@
     <meta name="viewport" content="width=device-width" />
     <title>Julie Wong WDD230</title>
     <link rel="stylesheet" href="styles/base.css"/>
-    <!-- <link rel="stylesheet" href="styles/medium.css"/>
-    <link rel="stylesheet" href="styles/large.css"/> -->
+    <link rel="stylesheet" href="styles/medium.css"/>
+    <link rel="stylesheet" href="styles/large.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
 </head>
-  <body>
+<body>
+    <div class="grid-container">
         <header>
-            <div class="grid-container">  
-                    <div class="image">
-                        <img src="images/wdd230-logo-1.jpg" alt="logo">
-                    </div>    
-                    <div class="title">
-                        <h1>Orange County</h1>
-                        <h2>Chamber of Commerce</h2>
-                    </div>
-                <div class="social">
-                    <a href="https://facebook.com" target="blank">
-                        <img src="images/facebook.png" alt="Facebook">
-                    </a>
-                    <a href="https://linkedin.com" target="blank">
-                        <img src="images/LI-In-Bug.png" alt="Linked In">
-                    </a>
-                </div>
-                <time>
-                    <script>
-                        document.getElementById("time").innerHTML = text;
-                    </script>
-                </time>  
+            <div class="image">
+                <img src="images/wdd230-logo-1.jpg" alt="logo">
+            </div>    
+            <div class="title">
+                <h1>Orange County</h1>
+                <h2>Chamber of Commerce</h2>
             </div>
+            <div class="social">
+                <a href="https://facebook.com" target="blank">
+                  <img src="images/facebook.png" alt="Facebook">
+                </a>
+                <a href="https://linkedin.com" target="blank">
+                  <img src="images/LI-In-Bug.png" alt="Linked In">
+                </a>
+            </div>
+            <time>
+            </time>  
         </header>
-        <nav></nav>
+    </div>
+    <div class="grid-container">    
+        <nav>
+            <a href="#">Call to action</a>
+            <a href="#">News</a>
+            <a href="#">Events</a>
+            <a href="#">Weather</a>
+            <a href="#">Join</a>
+            <a href="#">Spotlight</a>
+        </nav>
+    </div>
+    <div class="grid-container">    
         <main></main>
-        <div class="grid-container">
-            <div class="footer">
-                <footer>&copy; 2023 .:|:. Julie Wong .:|:. California</footer>
-                <footer>Last Updated: <span id="time"></span>
-                </footer>
-                <footer id="time">
-                    <script>
-                        let text = document.lastModified; document.getElementById("time").innerHTML = text;
-                    </script>
-                </footer>
-            </div>
+    </div>
+    <div class="grid-container">
+        <div class="footer">
+            <footer>&copy; 2023 Orange County Chambers of Commerce .:|:. Julie Wong .:|:. WDD 230 Project .:|:. Last Updated: <span id="time"></span></footer>
+            <footer id="time">
+                <script>
+                    let text = document.lastModified; document.getElementById("time").innerHTML = text;
+                </script>
+            </footer>
         </div>
+    </div>    
   </body>
   </html>
