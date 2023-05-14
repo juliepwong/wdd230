@@ -13,12 +13,13 @@
 .title {
     font-size: xx-large;
     font-family: 'DM Serif Display', serif;
-    color: #4C4A59; 
+    color: black; 
     text-align: center;
-    padding-left: 500px;
+    padding-left: 100px;
 }
 
 h1, h2, p {
+    color: black;
     padding: 20px;
 }
 
