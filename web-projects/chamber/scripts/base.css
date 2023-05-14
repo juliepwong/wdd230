@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet"');
 
-.grid {
+.grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1f);
     padding: 20px;
@@ -16,3 +16,4 @@ time {
     padding: 1rem 1rem;
     background-color: ;
 }
+
