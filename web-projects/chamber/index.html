@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width" />
     <title>Julie Wong WDD230</title>
     <link rel="stylesheet" href="styles/base.css"/>
-    <link rel="stylesheet" href="styles/medium.css"/>
-    <link rel="stylesheet" href="styles/large.css"/>
+    <!-- <link rel="stylesheet" href="styles/medium.css"/>
+    <link rel="stylesheet" href="styles/large.css"/> -->
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
 </head>
   <body>
@@ -29,7 +29,11 @@
                         <img src="images/LI-In-Bug.png" alt="Linked In">
                     </a>
                 </div>
-                <time></time>  
+                <time>
+                    <script>
+                        document.getElementById("time").innerHTML = text;
+                    </script>
+                </time>  
             </div>
         </header>
         <nav></nav>
