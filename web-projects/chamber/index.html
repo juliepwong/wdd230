@@ -29,12 +29,16 @@
                   <img src="images/LI-In-Bug.png" alt="Linked In">
                 </a>
             </div>
-            <time>
-            </time>  
+            <p class="date"><span id="date"></span>
+                <script>
+                    let date= new Date(); document.getElementById("date").innerHTML = date;
+                </script>
+            </p>
         </header>
     </div>
     <div class="grid-container">    
         <nav>
+            <button class="menu"><span>&#9776;</span></button>
             <a href="#">Call to action</a>
             <a href="#">News</a>
             <a href="#">Events</a>
