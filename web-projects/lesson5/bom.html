@@ -14,7 +14,13 @@
     <main>
         <label for="favchap">Enter Book and Chapter: </label>
         <input type="text" id="favchap" placeholder="Alma 5" value="Alma 5">
-        <button type="submit">Add Chapter</button>
+        <p id="scripture"></p>
+        <button type="submit">Add Chapter
+            <script>
+                document.getElementById("submit").value;
+                document.getElementById("scripture").innerHTML = scripture;
+            </script>
+        </button>
         <ul id="list"></ul>
     </main>
 </body>
