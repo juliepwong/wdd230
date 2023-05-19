@@ -9,7 +9,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	font-family: Acme, Arial, sans-serif;
+    font-family: 'Bree Serif', serif;
 }
 
 h1 {
@@ -20,7 +20,7 @@ main {
 	margin: 1rem auto;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 1rem;
-	background-color: ;
+	background-color: lightseagreen;
 	display: flex;
 	flex-direction: column;
 }
@@ -56,6 +56,15 @@ li {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    color: Black;
+    font-family: 'Bree Serif', serif;
+    font-size: 15px;
+    line-height: 20px;
 }
 
 @media only screen and (min-width: 32.5em) {
