@@ -17,8 +17,27 @@
         <p id="scripture"></p>
         <button type="submit">Add Chapter
             <script>
-                document.getElementById("submit").value;
-                document.getElementById("scripture").innerHTML = scripture;
+                const book = document.querySelector('ul')
+                const input = document.querySelector('input')
+                const button = document.querySelector('button')
+
+                button.addEventListener('click', () =>{
+                    const book = input.value;
+                    input.value = "";
+
+                    const listBooks = document.querySelector('li')
+                    const listText = document.querySelector('span')
+                    const listButton = document.querySelector('button')
+
+                    listBooks.appendChild(listBooks);
+                    listText.textContent = myItem;
+                    listBooks.appendChild(listButton);
+                    listButton.textContent = 'X';
+                    list.appendChild(listBooks);
+
+                    listButton.addEventListener('click', () =>)
+                        list.removeChild(listItem);
+                });
             </script>
         </button>
         <ul id="list"></ul>
