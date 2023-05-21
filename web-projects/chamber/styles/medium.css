@@ -1,5 +1,4 @@
 @media only screen and (min-width: 700px) {
-}
 
 .item1 { grid-area: header; }
 .item2 { grid-area:  }
@@ -163,3 +162,4 @@ main {
     margin-bottom: 1em;
   }
   
+}
