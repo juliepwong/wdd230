@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
+<head>
     <meta charset="utf-8" />
     <meta name="author" content="Julie Wong" />
     <meta name="description" content="Julie Wong BYU-Idaho WDD 230: Web Frontend Development Assignment Portal" />
@@ -8,6 +8,17 @@
     <title>Book of Mormon Top 10</title>
     <link rel="stylesheet" href="styles/styles.css"/>>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <style>
+        li {
+            margin-bottom: 20px;
+        }
+
+        li button {
+            font-size: 15px;
+            margin-left: 15px;
+            color: blue
+        }
+    </style>
 </head>
 <body>
     <h1>📖 Book of Mormon - Top 10</h1>
@@ -17,27 +28,6 @@
         <p id="scripture"></p>
         <button type="submit">Add Chapter
             <script>
-                const book = document.querySelector('ul')
-                const input = document.querySelector('input')
-                const button = document.querySelector('button')
-
-                button.addEventListener('click', () =>{
-                    const book = input.value;
-                    input.value = "";
-
-                    const listBooks = document.querySelector('li')
-                    const listText = document.querySelector('span')
-                    const listButton = document.querySelector('button')
-
-                    listBooks.appendChild(listBooks);
-                    listText.textContent = myItem;
-                    listBooks.appendChild(listButton);
-                    listButton.textContent = 'X';
-                    list.appendChild(listBooks);
-
-                    listButton.addEventListener('click', () =>)
-                        list.removeChild(listItem);
-                });
             </script>
         </button>
         <ul id="list"></ul>
