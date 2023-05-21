@@ -12,11 +12,11 @@
         li {
             margin-bottom: 20px;
         }
-
+        
         li button {
-            font-size: 15px;
-            margin-left: 15px;
-            color: blue
+            font-size: 20px;
+            margin-left: 20px;
+            color:darkcyan;
         }
     </style>
 </head>
@@ -28,6 +28,12 @@
         <p id="scripture"></p>
         <button type="submit">Add Chapter
             <script>
+                const element = document.getElementById("submit");
+                element.addEventListener("click", myFunction)
+
+                function myFunction() {
+                document.getElementById("scripture").innerHTML = "hello"; 
+            }
             </script>
         </button>
         <ul id="list"></ul>

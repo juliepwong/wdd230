@@ -33,7 +33,7 @@ button {
 
 button {
 	margin: 0.5rem;
-    font-family: 'Bree Serif', serif;s
+    font-family: 'Bree Serif', serif;
 }
 
 .delete {
@@ -67,6 +67,12 @@ footer {
     font-family: 'Bree Serif', serif;
     font-size: 15px;
     line-height: 20px;
+}
+
+label {
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 10px;
 }
 
 @media only screen and (min-width: 32.5em) {
