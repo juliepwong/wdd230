@@ -7,7 +7,7 @@
 } */
 
 @media only screen and (min-width: 300px) {
-  .grid-wrapper {
+  .grid-container {
     display: grid;
     max-width: 300px;
     grid-gap: 20px;
