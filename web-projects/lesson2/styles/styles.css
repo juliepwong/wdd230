@@ -2,7 +2,7 @@
 
 .wrapper {
   display: grid;
-  /* padding-left: 100px; */
+  margin-left: 10px;
   grid-gap: 7px;
   max-width: 760px;
   grid-template-columns: repeat(3, 1fr);
