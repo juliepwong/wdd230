@@ -42,17 +42,17 @@
     grid-area: design1 center;
     justify-content: center;
     text-align: center;
-    font-size: 50px;
+    font-size: 25px;
   }
 
   h2, .design2  {
     grid-column-start: 1;
     grid-column-end: 10;
-    grid-row-start: 15;
-    grid-row-end: 20;
-    grid-gap: 10px;
-    padding: 5px;
-    font-size: 30px;
+    grid-row-start: 30;
+    grid-row-end: 35;
+    /* grid-gap: 10px; */
+    padding: 1px;
+    font-size: 20px;
   }
 
   h3, .design3  {
