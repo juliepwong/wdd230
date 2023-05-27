@@ -19,7 +19,7 @@ h1 {
     border: 1px solid #333;
     box-shadow: 1px 1px 1px #333;
     font-family: 'Bree Serif', serif;
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
     grid-column-start: 1;
     grid-column-end: 5;
@@ -32,7 +32,7 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 40px;
   font-family: 'Bree Serif', serif;
 }
 
@@ -73,7 +73,7 @@ p {
   text-align: center;
   margin: 20px 20px 20px 20px;
   font-size: 15px;
-  padding: 20px 20px 20px 20px;
+  padding: 5px;
 }
 
 .center {
