@@ -21,7 +21,7 @@
       "footer";
   }
 
-  .header {
+  /* .header {
     font-size: 20px;
     grid-column-start: 1;
     grid-column-end: 10;
@@ -29,7 +29,7 @@
     grid-row-end: 1;
     padding: 10px 25px 30px 25px;
     background-color: turquoise;
-  }
+  } */
 
   h1, .design1 {
     grid-column-start: 1;
