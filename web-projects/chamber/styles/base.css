@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet"');
-/* @media only screen and (min-width: 400px ) { */
 
 .item1 { grid-area: header; }
 .item2 { grid-area: nav; }
@@ -172,5 +171,38 @@ main {
     padding: 5px;
     margin-bottom: 1em;
   }
-  
-/* } */
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: #05B3A7;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+  }
+
+.banner {
+    grid-column: 1/6;
+}
+
+.hero {
+    grid-area: 1 / 1 / 1 / 1;
+}
+
+.event {
+
+}
+
+.weather {
+
+}
+
+.news {
+
+}
+
+.spotlight {
+
+}
+
