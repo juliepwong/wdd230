@@ -8,8 +8,8 @@
 
 .grid-container {
     display: grid;
-    grid-template-areas: 'header header header header' 'header header header header' 'nav nav nav nav nav' 'main main main main main' 'footer footer footer footer footer';
-    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'logo title title social date' 'nav nav nav nav nav' 'main main main main main' 'footer footer footer footer footer';
+    grid-template-columns: 70px 500px 10px 150px;
     grid-template-rows: 1fr;
     /* background-color: #05B3A7; */
     /* align-content: left; */
@@ -18,7 +18,7 @@
   }
   
 header {
-    display: flex;
+    display: grid;
     justify-content: space-evenly;
     background-color: #05B3A7;
     max-height: 250px;
@@ -28,7 +28,7 @@ header {
 }
 
 .title {
-    display: flex;
+    display: grid;
     font-size: xx-large;
     font-family: 'DM Serif Display', serif;
     background-color: #05B3A7;
@@ -40,7 +40,7 @@ header {
 }
 
 .title2 {
-    display: flex;
+    display: grid;
     font-size: large;
     font-family: 'DM Serif Display', serif;
     background-color: #05B3A7;
