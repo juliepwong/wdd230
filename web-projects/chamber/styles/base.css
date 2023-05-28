@@ -72,6 +72,7 @@ h2 {
 }
 
 nav {
+    margin-top: -20px;
     display: flex;
     justify-content: space-evenly;
     font-size: 10px;
@@ -99,6 +100,7 @@ nav a:hover{
 }
 
 p {
+    margin-top: -20px;
     font-size: medium;
     font-family: 'Bree Serif', serif;
     color:black;
@@ -111,24 +113,26 @@ p {
 }
 
 .social {
-	margin-right: 1px;
     grid-column: 4/4;
     grid-row: 1/1;
     background-color: #05B3A7;
 }
 
 .date {
-    margin-right: 1px;
-    grid-column: 2/3;
+    font-size: small;
+    grid-column: 1/5;
     grid-template-rows: 2;
     background-color: #05B3A7;
+    text-align: center;
+    padding: -30px;
+    margin-top: -17px;
 }
 
 img {
     grid-row: 1/1;
     width: 5000px;
-    padding: 10px;
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 70px;
     background-color: #05B3A7;
 }
 
