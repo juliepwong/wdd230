@@ -98,18 +98,18 @@ nav a:hover{
     text-decoration: none;
 }
 
-p {
+/* p {
     margin-top: -20px;
     font-size: medium;
     font-family: 'Bree Serif', serif;
     color:black;
     text-align: center;
     background-color: #05B3A7;
-    /* padding: 100px; */
+    padding: 100px; 
     max-width: 300px;
     padding-top: 25px;
     padding-bottom: 25px;
-}
+} */
 
 .social {
     grid-column: 4/4;
@@ -173,7 +173,8 @@ main {
   }
 
 .banner {
-    grid-column: 1/6;
+    grid-column: 1/20;
+    grid-row: 10/12;
 }
 
 .hero {
