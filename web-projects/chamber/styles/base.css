@@ -30,7 +30,7 @@ header {
 }
 
 .title {
-    display: flex;
+    display: grid;
     font-size: xx-large;
     font-family: 'DM Serif Display', serif;
     background-color: #05B3A7;
@@ -42,7 +42,7 @@ header {
 }
 
 .title2 {
-    display: flex;
+    display: grid;
     font-size: large;
     font-family: 'DM Serif Display', serif;
     background-color: #05B3A7;
@@ -114,6 +114,13 @@ p {
 	margin-right: 1px;
     grid-column: 4/4;
     grid-row: 1/1;
+    background-color: #05B3A7;
+}
+
+.date {
+    margin-right: 1px;
+    grid-template-columns: 1;
+    grid-template-rows: 2;
     background-color: #05B3A7;
 }
 
