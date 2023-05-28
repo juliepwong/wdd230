@@ -9,7 +9,7 @@
 
 .grid-container {
     display: grid;
-    grid-template-areas: 'logo title title social date' 'nav nav nav nav nav' 'main main main main main' 'footer footer footer footer footer';
+    grid-template-areas: 'logo title nav social date' 'main main main main main' 'footer footer footer footer footer';
     grid-template-columns: 70px 500px 10px 150px;
     grid-template-rows: 1fr;
     /* background-color: #05B3A7; */
@@ -31,7 +31,7 @@ header {
 
 .title {
     display: grid;
-    font-size: xx-large;
+    font-size: 20px;
     font-family: 'DM Serif Display', serif;
     background-color: #05B3A7;
     color: black; 
@@ -58,23 +58,23 @@ h1, h2, p {
 }
 
 h1 {
-    font-size: x-large;
+    font-size: 15px;
     font-family: 'DM Serif Display', serif;
     color: black;
     padding-bottom: -5000px;
 }
 
 h2 {
-    font-size: large;
+    font-size: 20px;
     font-family: 'DM Serif Display', serif;
     color: black;
     padding: -500px;
 }
 
 nav {
-    margin-top: -20px;
+    margin-top: -70px;
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     font-size: 10px;
     padding: 10px;
     background-color:#05B3A7;
@@ -124,14 +124,14 @@ p {
     grid-template-rows: 2;
     background-color: #05B3A7;
     text-align: center;
-    padding: -30px;
-    margin-top: -17px;
+    /* padding: -30px;
+    margin-top: -17px; */
 }
 
 img {
     grid-row: 1/1;
     width: 5000px;
-    padding-top: 20px;
+    padding-top: 1px;
     padding-bottom: 70px;
     background-color: #05B3A7;
 }

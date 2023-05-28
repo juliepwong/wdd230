@@ -29,7 +29,7 @@ header {
 
 .title {
     display: grid;
-    font-size: xx-large;
+    font-size: 15px;
     font-family: 'DM Serif Display', serif;
     background-color: #05B3A7;
     color: black; 
@@ -41,7 +41,7 @@ header {
 /* 
 .title2 {
     display: grid;
-    font-size: large;
+    font-size: 20px;
     font-family: 'DM Serif Display', serif;
     background-color: #05B3A7;
     color: black; 
@@ -56,21 +56,21 @@ h1, h2, p {
 }
 
 h1 {
-    font-size: x-large;
+    font-size: 15px;
     font-family: 'DM Serif Display', serif;
     color: black;
     padding-bottom: -5000px;
 }
 
 h2 {
-    font-size: large;
+    font-size: 20px;
     font-family: 'DM Serif Display', serif;
     color: black;
     padding: -500px;
 }
 
 h3 {
-    font-size: xx-small;
+    font-size: 20px;
     font-family: 'DM Serif Display', serif;
     color: black;
 }
@@ -125,7 +125,7 @@ img {
     grid-row: 1/1;
     width: 50px;
     padding: 10px;
-    padding-top: 40px;
+    padding-top: 17px;
     background-color: #05B3A7;
 }
 
