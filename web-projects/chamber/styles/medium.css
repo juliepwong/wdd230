@@ -1,7 +1,7 @@
 @media only screen and (min-width: 700px) {
 
     .item1 { grid-area: header; }
-    .item2 { grid-area: menu; }
+    .item2 { grid-area: nav; }
     .item3 { grid-area: main; }
     .item4 { grid-area: footer; }
 
@@ -69,13 +69,23 @@ h2 {
     padding: -500px;
 }
 
+.date {
+    font-size: small;
+    grid-column: 1/5;
+    grid-template-rows: 2;
+    background-color: #05B3A7;
+    text-align: center;
+    padding: -30px;
+    margin-top: -5px;
+}
+
 nav {
     display: flex;
     justify-content: space-evenly;
     font-size: 10px;
     padding: 10px;
     background-color:#05B3A7;
-    grid-column: 1/12;
+    grid-column: 1/5;
     grid-row: 6/9;
 }
 
