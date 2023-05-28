@@ -112,17 +112,17 @@ nav a:hover{
     text-decoration: none;
 }
 
-p {
+/* p {
     font-size: medium;
     font-family: 'Bree Serif', serif;
     color:black;
     text-align: center;
     background-color: #05B3A7;
-    /* padding: 100px; */
+    padding: 100px;
     max-width: 300px;
     padding-top: 25px;
     padding-bottom: 25px;
-}
+} */
 
 .social {
 	margin-right: 1px;
