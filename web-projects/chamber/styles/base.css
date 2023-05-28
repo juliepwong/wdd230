@@ -35,7 +35,7 @@ header {
     font-family: 'DM Serif Display', serif;
     background-color: #05B3A7;
     color: black; 
-    text-align: center;
+    text-align: left;
     padding: 10px 10px 10px 10px;
     grid-column: 1/4;
     grid-row: 1/1;
