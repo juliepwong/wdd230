@@ -1,10 +1,9 @@
 @media only screen and (min-width: 700px) {
 
-.item1 { grid-area: header; }
-.item2 { grid-area:  }
-.item3 { grid-area: menu; }
-.item4 { grid-area: main; }
-.item5 { grid-area: footer; }
+    .item1 { grid-area: header; }
+    .item2 { grid-area: menu; }
+    .item3 { grid-area: main; }
+    .item4 { grid-area: footer; }
 
 
 .grid-container {
