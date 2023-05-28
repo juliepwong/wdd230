@@ -19,7 +19,7 @@
   }
   
 header {
-    display: flex;
+    display: grid;
     justify-content: space-evenly;
     background-color: #05B3A7;
     max-height: 250px;
