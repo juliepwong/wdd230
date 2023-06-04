@@ -75,6 +75,17 @@ label {
 	padding-bottom: 10px;
 }
 
+li {
+	margin-bottom: 20px;
+}
+
+li button {
+	font-size: 20px;
+	margin-left: 20px;
+	color:darkcyan;
+}
+
+
 @media only screen and (min-width: 32.5em) {
 	h1 {
 		font-size: 2rem;
