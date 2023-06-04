@@ -1,0 +1,14 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin: 50px 50px 50px 50px;
+}
+
+.img {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-left: 20px;
+}
