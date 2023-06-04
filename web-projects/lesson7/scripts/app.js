@@ -1,6 +1,6 @@
 <script src="app.js" defer></script>
 
-let imagesToLoad = document.querySelectorAll("[data-src]");
+let imagesToLoad = document.querySelectorAll("img[data-src]");
 const loadImages = (image) => {
   image.setAttribute("src", image.getAttribute("data-src"));
   image.onload = () => {
