@@ -3,6 +3,7 @@
     grid-template-columns: 1fr;
     justify-content: center;
     margin: 50px 50px 50px 50px;
+    align-items: center;
 }
 
 .img {
@@ -11,5 +12,4 @@
     margin-bottom: 20px;
     margin-left: 20px;
     margin-left: 20px;
-    align-items: center;
 }
