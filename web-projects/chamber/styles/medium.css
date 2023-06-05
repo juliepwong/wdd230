@@ -4,18 +4,6 @@
     .item2 { grid-area: nav; }
     .item3 { grid-area: main; }
     .item4 { grid-area: footer; }
-
-
-.grid-container {
-    display: grid;
-    grid-template-areas: 'logo title title social date' 'nav nav nav nav nav' 'main main main main main' 'footer footer footer footer footer';
-    grid-template-columns: 70px 500px 10px 150px;
-    grid-template-rows: 1fr;
-    /* background-color: #05B3A7; */
-    /* align-content: left; */
-    justify-content: center;
-    padding: 10px;
-  }
   
 header {
     display: grid;
