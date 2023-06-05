@@ -1,9 +1,5 @@
-@media only screen and (max-width: 700px) {
+@media only screen and (min-width: 700px) {
 
-    .item1 { grid-area: header; }
-    .item2 { grid-area: nav; }
-    .item3 { grid-area: main; }
-    .item4 { grid-area: footer; }
   
 header {
     display: grid;
@@ -23,21 +19,7 @@ header {
     color: black; 
     text-align: left;
     padding: 10px 10px 10px 10px;
-    grid-column: 2/5;
-    grid-row: 1/1;
 }
-
-/* .title2 {
-    display: grid;
-    font-size: 20px;
-    font-family: 'DM Serif Display', serif;
-    background-color: #05B3A7;
-    color: black; 
-    text-align: center;
-    padding: 10px 10px 10px 10px;
-    grid-column: 2/5;
-    grid-row: 1/1;
-} */
 
 h1, h2, p {
     padding: -100px;
@@ -59,8 +41,6 @@ h2 {
 
 .date {
     font-size: small;
-    grid-column: 1/5;
-    grid-template-rows: 2;
     background-color: #05B3A7;
     text-align: center;
     padding: -30px;
@@ -73,8 +53,6 @@ nav {
     font-size: 10px;
     padding: 10px;
     background-color:#05B3A7;
-    grid-column: 1/5;
-    grid-row: 6/9;
 }
 
 nav a {
@@ -93,18 +71,6 @@ nav a:hover{
     border-radius: 5px;
     text-decoration: none;
 }
-/* 
-p {
-    font-size: medium;
-    font-family: 'Bree Serif', serif;
-    color:black;
-    text-align: center;
-    background-color: #05B3A7;
-    padding: 100px;
-    max-width: 300px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-} */
 
 .social {
 	margin-right: 1px;
@@ -114,7 +80,6 @@ p {
 }
 
 img {
-    grid-row: 1/1;
     width: 50px;
     padding: 10px;
     padding-top: 15px;
@@ -127,8 +92,6 @@ img {
     font-family: 'Bree Serif', serif;
     padding-left: 500px;
     text-align: center;
-    grid-column: 1/6;
-    grid-row: 8/8;
     padding: 20px;
 }
 
