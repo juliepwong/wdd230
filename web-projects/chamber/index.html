@@ -13,7 +13,7 @@
     <link rel="icon" href="favicon.ico" />
 </head>
 <body>
-    <div class="grid-container">
+    <div class="grid-header-container">
         <div class="logo">
             <img src="images/wdd230-logo-1.jpg" alt="logo">
         </div>
@@ -41,19 +41,18 @@
         </div>
         <div class="date">
             <h3 class="date"><span id="date"></span>
+                <script>
+                    let date= new Date(); document.getElementById("date").innerHTML = date;
+                </script>
             </h3>
         </div>
     </div>
-    <br>
-    <div class="grid-container">    
+    <div class="grid-banner-container">    
+
         <div class="banner">
-            <p>
-                <a href="https://icon-icons.com/icon/handshake-hands-business/122671" target="blank">
-                    <img src="images/34_122671.png" alt="Shaking Hands">
-                </a> 
-                Monday/Tuesday "Come join us for the chamber meet and greet Wednesday at 7:00pm."
-            </p>
-            <!-- Photo by free-psd-templates on Icon Icons -->
+            <p>  <a href="https://icon-icons.com/icon/handshake-hands-business/122671" target="blank">
+                <img src="images/34_122671.png" alt="Shaking Hands">
+            </a> Monday/Tuesday "Come join us for the chamber meet and greet Wednesday at 7:00pm."</p>
         </div>
     </div>
     <br>
@@ -118,6 +117,11 @@
     <div class="grid-container">
         <div class="footer">
             <footer>&copy; 2023 Orange County Chamber of Commerce .:|:. Julie Wong .:|:. WDD 230 Project .:|:. Last Updated: <span id="time"></span></footer>
+            <!-- <footer id="time">
+                <script>
+                    let text = document.lastModified; document.getElementById("time").innerHTML = text;
+                </script>
+            </footer> -->
         </div>
     </div>
     <script src="scripts/app.js"></script>    
