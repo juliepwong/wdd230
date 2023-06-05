@@ -26,27 +26,15 @@
         <label for="favchap">Enter Book and Chapter: </label>
         <input type="text" id="favchap" placeholder="Alma 5" value="Alma 5">
         <p id="scripture"></p>
-        <button type="submit">Add Chapter
-            <!-- <script>
-                const element = document.getElementById("submit");
-                element.addEventListener("click", myFunction)
+        <button id="submit" type="submit">Add Chapter
 
-                function myFunction() {
-                document.getElementById("scripture").innerHTML = "My favorite chapter"; 
-            }
-            </script> -->
         </button>
         <ul id="list"></ul>
     </main>
     <div class="footer">
         <footer>&copy; 2023 .:|:. Julie Wong .:|:. California</footer>
-        <footer>Last Updated: <span id="time"></span>
-        </footer>
-        <footer id="time">
-            <script>
-                let text = document.lastModified; document.getElementById("time").innerHTML = text;
-            </script>
-        </footer>
+        <footer>Last Updated: <span id="time"></span></footer>
     </div>
+    <script src="scripts/app.js"></script>
 </body>
 </html>

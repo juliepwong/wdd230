@@ -1,8 +1,10 @@
-let text = document.lastModified; document.getElementById("time").innerHTML = text;
 
 const element = document.getElementById("submit");
-element.addEventListener("click", myFunction)
+element.addEventListener("click", myFunction);
+
+let text = document.lastModified; 
+document.getElementById("time").innerHTML = text;
 
 function myFunction() {
-document.getElementById("scripture").innerHTML = "My favorite chapter"; 
+document.getElementById("scripture").innerHTML = document.getElementById("favchap").value; 
 }
