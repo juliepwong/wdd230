@@ -1,6 +1,5 @@
-<script src="app.js" defer></script>
+const imagesToLoad = document.querySelectorAll("img[data-src]");
 
-let imagesToLoad = document.querySelectorAll("img[data-src]");
 const loadImages = (image) => {
   image.setAttribute("src", image.getAttribute("data-src"));
   image.onload = () => {
@@ -10,9 +9,9 @@ const loadImages = (image) => {
 
 imagesToLoad.forEach((img) => {
     loadImages(img);
-  });
+});
 
-  if ("IntersectionObserver" in window) {
+if ("IntersectionObserver" in window) {
     const observer = new IntersectionObserver((items, observer) => {
       items.forEach((item) => {
         if (item.isIntersecting) {
@@ -24,9 +23,10 @@ imagesToLoad.forEach((img) => {
     imagesToLoad.forEach((img) => {
       observer.observe(img);
     });
-  } else {
+} 
+  
+else {
     imagesToLoad.forEach((img) => {
       loadImages(img);
     });
-  }
-  
+}
