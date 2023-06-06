@@ -9,22 +9,18 @@ body {
     width: 100vw;
     background-color: #05B3A7;
     grid-template-columns: 1fr 1fr 4fr 2fr; 
-    /* align-content: left; */
     justify-content: center;
     align-items: center;
     padding: 10px;
   }
   
-.grid-container {
-    display: grid;
-    grid-template-areas: 'logo title nav social date' 'main main main main main' 'footer footer footer footer footer';
-    grid-template-columns: 70px 500px 10px 150px;
-    grid-template-rows: 1fr;
-    /* background-color: #05B3A7; */
-    /* align-content: left; */
+  .grid-banner-container {
+    display: none;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
-    padding: 10px;
-}
+    align-items: center;
+  }
 
 header {
     display: grid;
