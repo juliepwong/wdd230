@@ -11,5 +11,5 @@ if (date.getDay() === 1 || date.getDay() === 2) {
     banner.style.display = "grid";
 }
 
-
+const nav = document.getElementById(nav)
 
