@@ -1,4 +1,4 @@
-@media only screen and (min-width: 700px) {
+/* @media only screen and (min-width: 700px) {
 
     .item1 { grid-area: header; }
     .item2 { grid-area: nav; }
@@ -11,8 +11,8 @@
     grid-template-areas: 'logo title title social date' 'nav nav nav nav nav' 'main main main main main' 'footer footer footer footer footer';
     grid-template-columns: 70px 500px 10px 150px;
     grid-template-rows: 1fr;
-    /* background-color: #05B3A7; */
-    /* align-content: left; */
+    background-color: #05B3A7; 
+    align-content: left;
     justify-content: center;
     padding: 10px;
   }
@@ -37,7 +37,7 @@ header {
 
 }
 
-/* .title2 {
+.title2 {
     display: grid;
     font-size: 20px;
     font-family: 'DM Serif Display', serif;
@@ -47,7 +47,7 @@ header {
     padding: 10px 10px 10px 10px;
     grid-column: 2/5;
     grid-row: 1/1;
-} */
+} 
 
 h1, h2, p {
     padding: -100px;
@@ -103,7 +103,7 @@ nav a:hover{
     border-radius: 5px;
     text-decoration: none;
 }
-/* 
+
 p {
     font-size: medium;
     font-family: 'Bree Serif', serif;
@@ -114,7 +114,7 @@ p {
     max-width: 300px;
     padding-top: 25px;
     padding-bottom: 25px;
-} */
+}
 
 .social {
 	margin-right: 1px;
@@ -168,4 +168,4 @@ main {
     margin-bottom: 1em;
   }
   
-}
+} */

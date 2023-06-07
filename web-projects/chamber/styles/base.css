@@ -15,11 +15,24 @@ body {
   }
   
   .grid-banner-container {
-    display: none;
+    display: flex;
     width: 100vw;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    flex-direction: row;
+  }
+
+.banner-container {
+    display: flex;
+    grid-column: 1/5;
+    background-color: #05B3A7;
+    justify-content: center;
+}
+
+  .grid-main {
+
   }
 
 header {
@@ -28,9 +41,9 @@ header {
     background-color: #05B3A7;
     max-height: 250px;
     max-width: 400px;
-    grid-column-start: 1;
+    /* grid-column-start: 1;
     grid-column-end: 10;
-    /* grid-template-rows: 1/3; */
+    grid-template-rows: 1/3;  */
 }
 
 .title {
@@ -43,7 +56,6 @@ header {
 
 
 }
-
 
 h1, h2, p {
     padding: -100px;
@@ -88,6 +100,15 @@ nav a:hover{
     text-decoration: none;
 }
 
+nav ul {
+    display: none;
+    list-style-type: none;
+}
+
+nav button{
+    list
+}
+
 .social img {
     grid-column: 4/4;
     grid-row: 1/1;
@@ -104,9 +125,41 @@ nav a:hover{
     margin-top: -5px;
 }
 
-img {
+/* img {
     grid-row: 1/1;
-    /* width: 5000px; */
+    width: 300px;
+    padding-top: 1px;
+    padding-bottom: 70px;
+    background-color: #05B3A7;
+} */
+
+.logo {
+    width: 75px;
+    padding-left: 20px;
+    padding-top: 1px;
+    padding-bottom: 70px;
+    background-color: #05B3A7; 
+}
+
+.banner {
+    /* grid-column: 1/5; */
+    display: flex;
+    width: 50px;
+    padding-left: 50px;
+    padding-top: 1px;
+    padding-bottom: 70px;
+    background-color: #05B3A7; 
+}
+
+.social {
+    display: flex;
+    width: 50px;
+    background-color: #05B3A7; 
+}
+
+.main-pictures {
+    grid-row: 1/1;
+    width: 500px;
     padding-top: 1px;
     padding-bottom: 70px;
     background-color: #05B3A7;
@@ -136,20 +189,20 @@ main {
     padding-left: 30px;
 }
 
-.container {
+/* .container {
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 10px;
     /* background-color: #05B3A7; */
-    align-content: center;
+    /* align-content: center;
     justify-content: center;
     padding: 10px;
     border: 2px solid #ccc;
     padding: 10px;
-    width: 20pz;
+    width: 20pz; 
 }
 
-.banner {
+/* .banner {
     grid-column: 1/20;
     grid-row: 10/12;
     font-size: 12px;
@@ -157,10 +210,10 @@ main {
     color:black;
     text-align: center;
     background-color: #05B3A7;
-    /* padding-top: 1px;
-    padding-bottom: 1px; */
+    padding-top: 1px;
+    padding-bottom: 1px; 
 
-}
+} */
 
 .hero {
     grid-area: 1 / 1 / 1 / 1;

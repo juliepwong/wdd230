@@ -1,11 +1,19 @@
 @media only screen and (min-width: 1000px) {
-
 .item1 { grid-area: header; }
 .item2 { grid-area: nav}
 .item3 { grid-area: main; }
 .item4 { grid-area: footer; }
 
-body {
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav button {
+    display: none;
+}
+
+/* body {
     margin: 0;
 }
 
@@ -13,8 +21,8 @@ body {
     display: grid;
     width: 100vw;
     background-color: #05B3A7;
-    grid-template-columns: 1fr 1fr 4fr 2fr; 
-    /* align-content: left; */
+    grid-template-columns: 1fr 1fr 4fr 2fr;  */
+    /* align-content: left;
     justify-content: center;
     align-items: center;
     padding: 10px;
@@ -149,5 +157,5 @@ main {
     padding: 5px;
     margin-bottom: 1em;
   }
-  
+ **/ 
 }
