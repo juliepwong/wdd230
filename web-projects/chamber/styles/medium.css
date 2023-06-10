@@ -21,6 +21,64 @@
         min-width: 300px;
         font-size: 1.5rem;
         grid-area: navigation;
-    
+    }
+
+.main-container {
+    display: grid;
+    width: 100%;
+    background-color: #05B3A7;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "hero hero hero hero"
+    "event event event event"
+    "spotlight spotlight spotlight spotlight"
+    "spotlight spotlight spotlight spotlight"
+    "news news news weather";
+}
+
+    .spotlight {
+        grid-area: spotlight;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "spotlight1 spotlight2"
+        "spotlight3 spotlight3";
+        width: 100%;
+    }
+
+    .spotlight-md {
+        width: auto;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .spotlight1 {
+        grid-area: spotlight1;
+    }
+
+    .spotlight2 {
+        grid-area: spotlight2;
+    }
+
+    .spotlight3 {
+        grid-area: spotlight3;
+    }
+
+    .hero {
+        grid-area: hero;
+    }
+
+    .event {
+        grid-area: event;
+    }
+
+    .news {
+        grid-area: news;
+        width: 100%;
+    }
+
+    .weather {
+        grid-area: weather;
+        width: 100%;
     }
 }
