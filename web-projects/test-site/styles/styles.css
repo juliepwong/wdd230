@@ -59,14 +59,6 @@ p {
 .item2 {grid-area: main;}
 .item3 {grid-area: footer;}
 
-/* .grid-container {
-    display: grid;
-    grid-template-areas: 'header header header' 'main main main' 'footer footer footer';
-    gap: 15px;
-    background-color: blue;
-    padding: 20px;
-} */
-
 .grid-container > div {
     background-color: lightseagreen;
     text-align: center;
