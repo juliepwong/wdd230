@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet"');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body, html{
-    margin:0;
-    padding:0;
     width:100%;
 }
 
 body {
-    margin: 0;
     min-width:300px;
     width:100%;
     font-family: 'Bree Serif', serif;
@@ -35,7 +37,6 @@ body {
     text-align: center;
   }
 
-
 .banner {
     width: 50px;
     justify-self: end;
@@ -50,7 +51,6 @@ body {
 .navbar {
     margin-left: 1rem;
     justify-self: start;
-
 }
 
 header {
@@ -62,7 +62,6 @@ header {
 
 .title {
     font-size: 20px;
-
     color: black; 
     text-align: left;
     justify-self: start;
@@ -71,16 +70,13 @@ header {
     margin-right: 2px;
 }
 
-
 h1 {
     font-size: 15px;
-
     color: black;
 }
 
 h2 {
     font-size: 20px;
-
     color: black;
 }
 
@@ -117,7 +113,7 @@ nav ul {
     justify-content: center;
     align-items: center;
     left:0;
-    top:103px;
+    top:68px;
     min-width: 300px;
     font-size: 1.5rem;
     grid-area: navigation;
@@ -158,7 +154,6 @@ nav.responsive li {
     padding:0;
 }
 
-
 .logo-container {
     grid-area: logo;
     margin-left: 2px;
@@ -168,8 +163,6 @@ nav.responsive li {
 .logo {
     width: 45px;
 }
-
-
 
 .social-icon{
     height:25px;
@@ -184,10 +177,112 @@ nav.responsive li {
     grid-area: date;
     background-color: #05B3A7;
     text-align: center;
+    padding-bottom: 5px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/matt-c-q40XEHz-MLs-unsplash.jpg");
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}   
+
+.event {
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/seyedeh-hamideh-kazemi-PFUqfNsorJM-unsplash.jpg");
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.weather {
+    width: 75%;
+    height: 250px;
+    background-image: url("../images/Weather_31085.png");
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.news {
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/markus-winkler-aId-xYRTlEc-unsplash.jpg");
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.spotlight {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: #05B3A7;
+    align-items: center;
+}
+
+.spotlight1 {
+    margin: 10px;
+    width: 90%;
+    height: 200px;
+    background-image: url("../images/aiman-hussein-X-6lRDtTlgA-unsplash.jpg");
+    background-color: rgba(0,0,0,0.2);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.spotlight2 {
+    margin-bottom: 10px;
+    width: 90%;
+    height: 200px;
+    background-image: url("../images/zhifei-zhou-XO4A1pWBEbE-unsplash.jpg");
+    background-color: rgba(0,0,0,0.2);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.spotlight3 {
+    margin-bottom: 10px;
+    width: 90%;
+    height: 200px;
+    background-image: url("../images/antenna-ZDN-G1xBWHY-unsplash.jpg");
+    background-color: rgba(0,0,0,0.2);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
 }
 
 .main-pictures {
-    width: 300px;
+    width: 200px;
     padding-top: 1px;
     padding-bottom: 70px;
     background-color: #05B3A7;
@@ -197,10 +292,8 @@ nav.responsive li {
 .footer {
     background-color: #05B3A7;
     font-size: small;
-
     padding-left: 500px;
     text-align: left;
-
     padding: 20px;
 }
 
@@ -212,8 +305,4 @@ button {
     background-color: transparent;
     border:transparent;
     grid-area:button;
-}
-
-main {
-    padding-left: 30px;
 }
