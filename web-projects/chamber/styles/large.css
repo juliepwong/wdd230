@@ -39,4 +39,79 @@
     .social {
         grid-area: social;
     }
-}
+
+    .main-container {
+        display: grid;
+        width: 100%;
+        background-color: #05B3A7;
+        justify-content: space-between;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "event hero hero spotlight"
+        "weather hero hero spotlight"
+        "join news news spotlight";
+    }
+    
+        .spotlight {
+            grid-area: spotlight;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-areas: "spotlight1"
+            "spotlight2"
+            "spotlight3";
+            width: 100%;
+        }
+    
+        .spotlight-lg {
+            width: auto;
+            margin-left: 0px;
+            margin-top: 10px;
+        }
+    
+        .spotlight1 {
+            grid-area: spotlight1;
+            width: 100%;
+        }
+    
+        .spotlight2 {
+            grid-area: spotlight2;
+        }
+    
+        .spotlight3 {
+            display: block;
+            margin-bottom: 10px;
+            width: 100%;
+            height: 200px;
+            background-image: url("../images/antenna-ZDN-G1xBWHY-unsplash.jpg");
+            background-color: rgba(0,0,0,0.2);
+            background-blend-mode: multiply;
+            background-position: center;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            grid-area: spotlight3;
+        }
+    
+        .hero {
+            grid-area: hero;
+            height: 100%;
+        }
+    
+        .event {
+            grid-area: event;
+        }
+    
+        .news {
+            grid-area: news;
+        }
+    
+        .weather {
+            grid-area: weather;
+        }
+
+        .join {
+            grid-area: join;
+        }
+}       

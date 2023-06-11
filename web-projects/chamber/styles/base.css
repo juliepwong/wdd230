@@ -269,7 +269,8 @@ nav.responsive li {
     text-align: center;
 }
 .spotlight3 {
-    margin-bottom: 10px;
+    display: none;
+    /* margin-bottom: 10px;
     width: 90%;
     height: 200px;
     background-image: url("../images/antenna-ZDN-G1xBWHY-unsplash.jpg");
@@ -278,7 +279,14 @@ nav.responsive li {
     background-position: center;
     background-size: cover;
     color: white;
-    text-align: center;
+    text-align: center; */
+}
+
+.join {
+    display: none;
+    /* width: 100%;
+    height: 250px;
+    background-color: #05B3A7; */
 }
 
 .main-pictures {
@@ -293,7 +301,7 @@ nav.responsive li {
     background-color: #05B3A7;
     font-size: small;
     padding-left: 500px;
-    text-align: left;
+    text-align: center;
     padding: 20px;
 }
 
