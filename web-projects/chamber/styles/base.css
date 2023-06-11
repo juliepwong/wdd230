@@ -28,7 +28,7 @@ body {
     grid-template-rows: 1fr, 1fr, 1fr;
   }
   
-  .banner-container {
+.banner-container {
     display: none;
     width: 100%;
     background-color: #05B3A7;
@@ -302,16 +302,43 @@ button {
     grid-area:button;
 }
 
+
+/* discover page */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    /* margin: 50px 50px 50px 50px; */
+}
+
+/* .img {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-left: 20px;
+} */
 .shopping {
     width: 100%;
     height: 250px;
     background-image: url("../images/shopping.jpg");
+    background-color: rgba(0,0,0,0.2);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    color: white;
 }
 
 .theme-parks {
     width: 100%;
     height: 250px;
     background-image: url("../images/theme-park.jpg");
+    background-color: rgba(0,0,0,0.2);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
 }
 
 .restaurants {
