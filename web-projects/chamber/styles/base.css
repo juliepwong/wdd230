@@ -270,23 +270,10 @@ nav.responsive li {
 }
 .spotlight3 {
     display: none;
-    /* margin-bottom: 10px;
-    width: 90%;
-    height: 200px;
-    background-image: url("../images/antenna-ZDN-G1xBWHY-unsplash.jpg");
-    background-color: rgba(0,0,0,0.2);
-    background-blend-mode: multiply;
-    background-position: center;
-    background-size: cover;
-    color: white;
-    text-align: center; */
 }
 
 .join {
     display: none;
-    /* width: 100%;
-    height: 250px;
-    background-color: #05B3A7; */
 }
 
 .main-pictures {
@@ -313,4 +300,34 @@ button {
     background-color: transparent;
     border:transparent;
     grid-area:button;
+}
+
+.shopping {
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/shopping.jpg");
+}
+
+.theme-parks {
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/theme-park.jpg");
+}
+
+.restaurants {
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/restaurants.jpg");
+}
+
+.beach {
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/beach.jpg");
+}
+
+.forests {
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/forest.jpg");
 }
