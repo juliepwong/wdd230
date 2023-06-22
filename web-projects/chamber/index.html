@@ -64,9 +64,27 @@
             </p>
             </div> 
             <div class="weather">
-            <p>Weather
                 <!-- Photo by Andrew Williams on Icon Icons; link: https://icon-icons.com/icon/weather/31085 --> 
-            </p>
+                <div class="weather-title">
+                    Todays weather
+                </div>
+                <div class="weather-icon">
+                <!--Weather Icon -->
+                </div>
+                <div class="temperature">
+                    <span id="temp">51</span> &deg;c
+                </div>
+                <div class="description">
+                    Partially Cloudy
+                </div>
+                <div class="linebreak">
+                </div>
+                <div class="windspeed">
+                    Wind Speed: <span id="windspeed">4.7</span>km/H
+                </div>
+                <div class="windchill">
+                    Wind Chill: <span id="windchill">N/A</span>
+                </div>
             </div> 
             <div class="news">
             <p>News Release
@@ -99,5 +117,6 @@
         </div> 
     </div>
     <script src="scripts/app.js"></script>    
+    <script src="scripts/windchill.js"></script>    
   </body>
   </html>

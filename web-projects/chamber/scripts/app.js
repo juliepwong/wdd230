@@ -21,5 +21,3 @@ hamburger.addEventListener('click', () => {
     navigator.classList.toggle('responsive');
 });
 
-const nav = document.getElementById(nav)
-
