@@ -222,6 +222,47 @@ nav.responsive li {
     background-size: cover;
     color: white;
     text-align: center;
+    display: grid;
+    grid-template-areas: "title title"
+    "w-icon temp" 
+    "desc desc" 
+    "line line" 
+    "speed speed"
+    "chill chill";
+}
+
+.weather-title {
+    grid-area: title;
+}
+
+.weather-icon {
+    padding-left: 75px;
+    grid-area: w-icon;
+    width: 100px;
+    height: 100px;
+
+}
+
+.temperature {
+    grid-area: temp;
+    font-size: 20px;
+}
+
+.weather-description {
+    grid-area: desc;
+}
+
+.linebreak {
+    grid-area: line;
+
+}
+
+.windspeed {
+    grid-area: speed;
+}
+
+.windchill {
+    grid-area: chill;
 }
 
 .news {
@@ -304,57 +345,57 @@ button {
 
 
 /* discover page */
-.grid-container {
+.grid-header-discover {
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
     /* margin: 50px 50px 50px 50px; */
 }
 
-/* .img {
-    display: block;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-left: 20px;
-} */
+.main-header {
+    grid-row: 1;
+}
+
+.main-discover {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-section {
+    grid-row: 2;
+}
+
 .shopping {
-    width: 100%;
+    width: 400px;
     height: 250px;
     background-image: url("../images/shopping.jpg");
-    background-color: rgba(0,0,0,0.2);
-    background-blend-mode: multiply;
-    background-position: center;
-    background-size: cover;
-    color: white;
+    margin: 10px auto;
 }
 
 .theme-parks {
-    width: 100%;
+    width: 400px;
     height: 250px;
     background-image: url("../images/theme-park.jpg");
-    background-color: rgba(0,0,0,0.2);
-    background-blend-mode: multiply;
-    background-position: center;
-    background-size: cover;
-    color: white;
-    text-align: center;
+    margin: 10px auto;
 }
 
 .restaurants {
-    width: 100%;
+    width: 400px;
     height: 250px;
     background-image: url("../images/restaurants.jpg");
+    margin: 10px auto;
 }
 
 .beach {
-    width: 100%;
+    width: 400px;
     height: 250px;
     background-image: url("../images/beach.jpg");
+    margin: 0 auto;
 }
 
 .forests {
-    width: 100%;
+    width: 400px;
     height: 250px;
     background-image: url("../images/forest.jpg");
+    margin: 0 auto;
 }
