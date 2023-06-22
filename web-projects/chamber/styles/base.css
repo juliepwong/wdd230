@@ -26,7 +26,7 @@ body {
     "date date date date"
     "navigation navigation navigation navigation";
     grid-template-rows: 1fr, 1fr, 1fr;
-  }
+}
   
 .banner-container {
     display: none;
@@ -35,7 +35,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-  }
+}
 
 .banner {
     width: 50px;
@@ -118,7 +118,6 @@ nav ul {
     font-size: 1.5rem;
     grid-area: navigation;
     margin:0;
-
 }
 
 nav.responsive ul {
@@ -347,10 +346,23 @@ button {
 /* discover page */
 .grid-header-discover {
     display: grid;
+    width: 100%;
+    background-color: #05B3A7;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: auto auto auto auto minmax(0, 1fr, 1fr, 1fr);
+    grid-template-areas: "button logo title social"
+    "date date date date"
+    "navigation navigation navigation navigation";
+}
+
+/* .grid-header-discover {
+    display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
-    /* margin: 50px 50px 50px 50px; */
-}
+} */
+
+
 
 .main-header {
     grid-row: 1;

@@ -115,3 +115,67 @@
             grid-area: join;
         }
 }       
+
+
+/* Discover page */
+/* .grid-header-discover {
+    display: grid;
+    width: 100%;
+    background-color: #05B3A7;
+    /* justify-content: space-between;
+    align-items: center; */
+    grid-template-columns: auto auto minmax(300px, auto);
+    grid-template-areas: "discover-logo discover-title discover-navbar discover-social"
+    "discover-date discover-date discover-date discover-date";
+    justify-content: space-between;
+}
+
+.discover-logo {
+    background-color: #05B3A7;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 100px;
+    grid-area: discover-logo;
+
+}
+.hamburger-menu {
+    background-color: #05B3A7;
+    display:none;
+}
+
+.discover-navbar {
+    background-color: #05B3A7;
+    justify-content: space-between;
+}
+.discover-nav ul {
+    display: flex;
+    flex-direction: row;
+    font-size: .75rem;
+    background-color: transparent;
+    grid-area: discover-navigation;
+    position: static;
+}
+.discover-nav li {
+    margin-right: 25px;
+}
+.discover-nav.responsive ul{
+    background-color: transparent;
+    flex-direction: row;
+    grid-area: discover-navigation;
+}
+
+.discover-logo {
+    grid-area: discover-logo;
+}
+
+.discover-title {
+    grid-area: discover-title;
+}
+
+.discover-social {
+    grid-area: discover-social;
+}
+
+.discover-date {
+    grid-area: discover-date;
+} */
