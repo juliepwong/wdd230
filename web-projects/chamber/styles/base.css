@@ -361,24 +361,33 @@ button {
 }
 
 .shopping {
-    width: 400px;
-    height: 250px;
+    width: 376px;
+    height: 203px;
     background-image: url("../images/shopping.jpg");
     margin: 10px auto;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 .theme-parks {
-    width: 400px;
+    width: 376px;
     height: 250px;
     background-image: url("../images/theme-park.jpg");
     margin: 10px auto;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 .restaurants {
-    width: 400px;
+    width: 340px;
     height: 250px;
     background-image: url("../images/restaurants.jpg");
     margin: 10px auto;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 .beach {
@@ -386,11 +395,17 @@ button {
     height: 250px;
     background-image: url("../images/beach.jpg");
     margin: 10px auto;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 .forests {
     width: 400px;
-    height: 250px;
+    height: 223px;
     background-image: url("../images/forest.jpg");
     margin: 10px auto;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
