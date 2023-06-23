@@ -163,7 +163,7 @@ nav.responsive li {
     width: 45px;
 }
 
-.social-icon{
+.social-icon {
     height:25px;
     width:25px;
     border-radius: 50%;
@@ -214,6 +214,8 @@ nav.responsive li {
 .weather {
     width: 75%;
     height: 250px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background-image: url("../images/Weather_31085.png");
     background-color: rgba(0,0,0,0.5);
     background-blend-mode: multiply;
@@ -239,7 +241,6 @@ nav.responsive li {
     grid-area: w-icon;
     width: 100px;
     height: 100px;
-
 }
 
 .temperature {
@@ -287,7 +288,7 @@ nav.responsive li {
 .spotlight1 {
     margin: 10px;
     width: 90%;
-    height: 200px;
+    height: 97%;
     background-image: url("../images/aiman-hussein-X-6lRDtTlgA-unsplash.jpg");
     background-color: rgba(0,0,0,0.2);
     background-blend-mode: multiply;
@@ -382,12 +383,12 @@ button {
     width: 400px;
     height: 250px;
     background-image: url("../images/beach.jpg");
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 .forests {
     width: 400px;
     height: 250px;
     background-image: url("../images/forest.jpg");
-    margin: 0 auto;
+    margin: 10px auto;
 }
