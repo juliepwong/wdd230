@@ -237,7 +237,7 @@ nav.responsive li {
 }
 
 .weather-icon {
-    padding-left: 75px;
+    padding-left: 50px;
     grid-area: w-icon;
     width: 100px;
     height: 100px;
@@ -315,6 +315,19 @@ nav.responsive li {
 
 .join {
     display: none;
+    text-align: center;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
 }
 
 .main-pictures {

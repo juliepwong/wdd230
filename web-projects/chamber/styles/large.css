@@ -117,5 +117,6 @@
         .join {
             grid-area: join;
             height: 100%;
+            text-align: center;
         }
 }       
