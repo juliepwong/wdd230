@@ -409,3 +409,26 @@ button {
     text-align: center;
     padding: 10px;
 }
+
+.form-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.form-input {
+    display: grid;
+    justify-content: center;
+    grid-column: 1fr 1fr;
+    grid-template-areas: "inputLabel" "inputText"
+    "inputLabel" "inputText"
+    "inputLabel" "inputText";
+}
+
+.form-input label {
+    grid-area: inputLable;
+}
+
+.form-input input {
+    grid-area: inputText;
+    width: 100%;
+}
