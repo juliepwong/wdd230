@@ -425,7 +425,7 @@ button {
 }
 
 .form-input label {
-    grid-area: inputLable;
+    grid-area: inputLabel;
 }
 
 .form-input input {
