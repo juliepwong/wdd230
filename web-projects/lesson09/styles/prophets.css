@@ -45,8 +45,8 @@ body {
   section {
     margin: 0.25rem;
     padding: 0.35rem;
-    background-color: #10e4c7;
-    border: 6px solid #ffc400;
+    background-color: #eee;
+    border: 7px solid #bbb;
     display: flex;
     flex-direction: column;
     align-items: center;
