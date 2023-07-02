@@ -44,25 +44,25 @@ const displayDirectory = (directory) => {
       let order = document.createElement('p');
 
       image.setAttribute('src', image.imageurl)
-      image.setAttribute('alt', `${prophet.name} ${prophet.lastname}`)
       image.setAttribute('loading', 'lazy');
-      image.setAttribute('width', '340');
-      image.setAttribute('height', '440');
+      image.setAttribute('width', '150');
+      image.setAttribute('height', '300');
       
       
-      birthplace.textContent = `Place of Birth: ${prophet.birthplace}`;
-      numofchildren.textContent = `Children: ${prophet.numofchildren}`;
-      length.textContent = `Prophet Years: ${prophet.length}`;
-      order.textContent = `Propeht Order: ${prophet.order}`;
-      death.textContent = `Date of Death: ${prophet.death}`;
-      
+      place.textContent = `Place: ${directory.place}`;
+      address.textContent = `Address: ${directory.address}`;
+      phone.textContent = `Phone Number: ${directory.phone}`;
+      website.textContent = `Website URLs: ${directory.wesite}`;
+      image.textContent = `Membership Level: ${directory.image}`;
+      membership.textContent = `Membership Level: ${directory.membership}`;
+
       card.appendChild(place);
-      card.appendChild(portrait);
-      card.appendChild(birthdate);
-      card.appendChild(death);
-      card.appendChild(length);
-      
-      )}
+      card.appendChild(address);
+      card.appendChild(phone);
+      card.appendChild(website);
+      card.appendChild(image);
+      card.appendChild(membership);
+      })
 }
 
 
