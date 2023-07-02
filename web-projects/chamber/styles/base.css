@@ -416,6 +416,7 @@ button {
 
 .legend {
     justify-content: space-between;
+    font-size: 15px;
 }
 
 /* .form-container {

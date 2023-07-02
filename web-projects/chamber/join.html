@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/base.css"/>
     <link rel="stylesheet" href="styles/medium.css"/>
     <link rel="stylesheet" href="styles/large.css"/>
+    <link rel="json" href="json/data.json">
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico" />
 </head>
@@ -36,7 +37,7 @@
 <div>
     <!-- Used some of what I learned in the form building to help me build mine. (Credit: Paul Cheney) -->
 <form method="get" action="thankyou.html">
-            <label>Contact Information</label>
+            <legend>Contact Information</legend>
             <div>
                 <label>
                     First Name*:
@@ -74,11 +75,19 @@
                 <input type="text" name="business" required></input>
             </div><br>        
             <div>
-            <legend>Membership Level</legend>
-                    <label><input type="radio" name="membership" value="np">NP Membership</label>
-                    <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
-                    <label><input type="radio" name="membership" value="silver">Silver Membership</label>
-                    <label><input type="radio" name="membership" value="gold">Gold Memebrship</label>
+            <legend>Membership Level</legend><br>
+                    <label><input type="radio" name="membership" value="np">NP Membership
+                        <p>This level is a great one to choose for your non-prophet.</p>
+                    </label><br>
+                    <label><input type="radio" name="membership" value="bronze">Bronze Membership
+                        <p>With the Bronze Membership, you can get a 5% discount on your membership.</p>
+                    </label> <br>
+                    <label><input type="radio" name="membership" value="silver">Silver Membership
+                        <p>With the Silver Membership, you can get a 10% discount on your membership.</p>
+                    </label><br>
+                    <label><input type="radio" name="membership" value="gold">Gold Memebrship
+                        <p>With the Gold Membership, you can get a 15% discount on your membership.</p>
+                    </label>
             <br><br>
             <input type="button" class="button" value="Join">
         </div>
