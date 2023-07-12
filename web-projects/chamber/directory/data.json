@@ -1,29 +1,31 @@
-{ 
-    "place" : "Disneyland",
-    "address" : "1313 S Disneyland Dr., Anaheim, CA 92802",
-    "phone numbers" : "(714) 781-4636",
-    "website URLs" : "https://disneyland.disney.go.com/",
-    "image" : "https://lh3.googleusercontent.com/pw/AJFCJaWRLH0Vi5-ULFxOqfpRnBrWBIhkbDSfwoQscr_C7cH8r8gwEi4x5OmMyckg-4U9zHkdFWqfg7FhiFXXCQClN_CYqq7eK2a6AzT5G6PjYBPzAOU-YdTDoRx2jkPkWtpanGAZvRveIH2yGFhNawQZvPk5bAN1hW5vfHb-p00Osc0dHaDYC3d-M2j7LqnhTGCrdsafr0PV43_4tiXuPU3VUP-_G6fbMn2Ck_r9Dh2ULH3OElXXLfzhLnKFIouit6VFUQNA4LfxHdyxThzuKkc0j49APMSZzveSRRE_zQ1-cb206G2GlvGqX0JU_-qTGwBB39sCcLXW9xhbGL4bYT3YOVGYu_S06yBG38DDae37i5L3X-oNolBcXdlPDDTtL47x8QkMWyPEiNia1C_OVdmzH3XU3C_8sGN8Bdsh3IvZrvkTYdTwp8mjMULBgJdEx50AI3al26asjHi1gk7oM0X9Mi1HEHHstJ_7eWQUcWzLcuCp0Vx1yK1YbQlulV8xL5jkd4kcDoYUxuaHVwp1euff304nujlHBN75ZzRI7da5RzXpR005Rd5tHB2zDwCR1ouWnDiSCxWDI-Me10yXOFVjT4RTIU9lLXHzb9FCgm8z4J7UwIsHkSRe6WY87R-mYvzvFFsO0I46is2i_s09Sm74MjoGHdziSoVZ9Ox45FMhCb5wsNPkBYUxYorBhQmnz5b7M8zSMSxAEzT2uoTw1XJz-iYttowX129JaVEWo_XOBZOjdG9lx7UgrvEOPKNqmMMCyq6QOJ9jATyn14tq6iuhs5_vKqzeynO2Y1feJZD2pqTnYKlujwGfq8DD0QSeXqeDnkSE4L-stpJthzauTCGb50ZqXCRJ3DHXnC_3HQ-fsjNPHDwLBbqOOgy3vrDZ90O4QfNfU8qHs8zKlR2OO8k_bxaXQn0=w1134-h854-s-no?authuser=0",
-    "membership level" : "Gold"
-}
-
 {
-    "place" : "Irvine Spectrum Shopping Center",
-    "address" : "",
-    "phone numbers" : "",
-    "website URLs" : "https://www.irvinespectrumcenter.com/",
-    "image" : "https://www.irvinespectrumcenter.com/media/1363/spectrum-logo-text.svg",
-    "membership level" : "Silver"
-},
-
-{
-    "place" : "Newport Beach",
-    "address" : "Newport Beach, California",
-    "phone numbers" : "n/a",
-    "website URLs" : "https://www.visitnewportbeach.com/",
-    "image" : "",
-    "membership level" : "NP"
-},
+    "places": [
+        { 
+            "place" : "Disneyland",
+            "address" : "1313 S Disneyland Dr., Anaheim, CA 92802",
+            "phone numbers" : "(714) 781-4636",
+            "website URLs" : "https://disneyland.disney.go.com/",
+            "image" : "https://lh3.googleusercontent.com/pw/AJFCJaWRLH0Vi5-ULFxOqfpRnBrWBIhkbDSfwoQscr_C7cH8r8gwEi4x5OmMyckg-4U9zHkdFWqfg7FhiFXXCQClN_CYqq7eK2a6AzT5G6PjYBPzAOU-YdTDoRx2jkPkWtpanGAZvRveIH2yGFhNawQZvPk5bAN1hW5vfHb-p00Osc0dHaDYC3d-M2j7LqnhTGCrdsafr0PV43_4tiXuPU3VUP-_G6fbMn2Ck_r9Dh2ULH3OElXXLfzhLnKFIouit6VFUQNA4LfxHdyxThzuKkc0j49APMSZzveSRRE_zQ1-cb206G2GlvGqX0JU_-qTGwBB39sCcLXW9xhbGL4bYT3YOVGYu_S06yBG38DDae37i5L3X-oNolBcXdlPDDTtL47x8QkMWyPEiNia1C_OVdmzH3XU3C_8sGN8Bdsh3IvZrvkTYdTwp8mjMULBgJdEx50AI3al26asjHi1gk7oM0X9Mi1HEHHstJ_7eWQUcWzLcuCp0Vx1yK1YbQlulV8xL5jkd4kcDoYUxuaHVwp1euff304nujlHBN75ZzRI7da5RzXpR005Rd5tHB2zDwCR1ouWnDiSCxWDI-Me10yXOFVjT4RTIU9lLXHzb9FCgm8z4J7UwIsHkSRe6WY87R-mYvzvFFsO0I46is2i_s09Sm74MjoGHdziSoVZ9Ox45FMhCb5wsNPkBYUxYorBhQmnz5b7M8zSMSxAEzT2uoTw1XJz-iYttowX129JaVEWo_XOBZOjdG9lx7UgrvEOPKNqmMMCyq6QOJ9jATyn14tq6iuhs5_vKqzeynO2Y1feJZD2pqTnYKlujwGfq8DD0QSeXqeDnkSE4L-stpJthzauTCGb50ZqXCRJ3DHXnC_3HQ-fsjNPHDwLBbqOOgy3vrDZ90O4QfNfU8qHs8zKlR2OO8k_bxaXQn0=w1134-h854-s-no?authuser=0",
+            "membership level" : "Gold"
+        }
+        
+        {
+            "place" : "Irvine Spectrum Shopping Center",
+            "address" : "",
+            "phone numbers" : "",
+            "website URLs" : "https://www.irvinespectrumcenter.com/",
+            "image" : "https://www.irvinespectrumcenter.com/media/1363/spectrum-logo-text.svg",
+            "membership level" : "Silver"
+        },
+        
+        {
+            "place" : "Newport Beach",
+            "address" : "Newport Beach, California",
+            "phone numbers" : "n/a",
+            "website URLs" : "https://www.visitnewportbeach.com/",
+            "image" : "",
+            "membership level" : "NP"
+        },
 
 {
     "place" : "Peters Canyon Regional Park",
@@ -77,4 +79,6 @@
     "website URLs" : "",
     "image" : "",
     "membership level" : "",
+}
+]
 }
