@@ -1,7 +1,257 @@
-heading {
-    font-family: 'Chewy', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Loved+by+the+King&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+/* .grid-header-container {
+    background-color: #397A8F;
+}
+
+h1 {
+    font-family: 'Chewy', cursive, 'Source', 'Source Serif Pro', serif;
 }
 
 body {
     font-family: 'Loved by the King', cursive;
+    background-color: #4DB8DB;
+}
+
+.grid-container {
+    background-color: #397A8F;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    width:100%;
+}
+
+body {
+    min-width:300px;
+    width:100%;
+    font-family: 'Bree Serif', serif;
+    background-color: #4DB8DB;
+    text-align: center;
+}
+
+.grid-header-container {
+    display: grid;
+    width: 100%;
+    background-color: #397A8F;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: auto auto auto minmax(0, 1fr);
+    grid-template-areas: "button logo title social"
+    "date date date date"
+    "navigation navigation navigation navigation";
+    grid-template-rows: 1fr, 1fr, 1fr;
+}
+  
+.banner-container {
+    display: none;
+    width: 100%;
+    background-color: #05B3A7;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner {
+    width: 50px;
+    justify-self: end;
+    align-self: end;
+    padding: 1rem;
+}
+
+.hamburger-menu {
+    border: 1px solid transparent;
+}
+
+.navbar {
+    margin-left: 1rem;
+    justify-self: start;
+}
+
+header {
+    justify-content: start;
+    background-color: #05B3A7;
+    max-height: 250px;
+    max-width: 400px;
+}
+
+.title {
+    font-size: 20px;
+    color: black; 
+    text-align: left;
+    justify-self: start;
+    grid-area: title;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+h1 {
+    font-size: 30px;
+    color: black;
+}
+
+h2 {
+    font-size: 25px;
+    color: white;
+}
+
+nav {
+    font-size: 10px;
+    background-color:#05B3A7;
+    display: grid;
+
+}
+
+nav a {
+    color:black;
+    line-height: 1em;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav a:hover{
+    background-color: #FAD97F; 
+    color: #7392FA;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+nav ul {
+    display: none;
+    position: absolute;
+    width:100%;
+    background-color: #FAD97F;
+    list-style-type: none;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    left:0;
+    top:68px;
+    min-width: 300px;
+    font-size: 1.5rem;
+    grid-area: navigation;
+    margin:0;
+}
+
+nav.responsive ul {
+    display: flex;
+    flex-direction: column;
+}
+
+nav.responsive li {
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+
+#navmenu {
+    grid-area:navigation;
+}
+
+.social {
+    justify-self:end;
+}
+
+.social img {
+    background-color: #05B3A7;
+    width: 25px;
+    height: 25px;
+    margin:0;
+    padding:0;
+}
+.social a {
+    text-decoration: none;
+    width: 25px;
+    margin:0;
+    padding:0;
+}
+
+.logo-container {
+    grid-area: logo;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.logo {
+    width: 45px;
+}
+
+.social-icon {
+    height:10px;
+    width:10px;
+    border-radius: 50%;
+    contain:cover;
+    margin:5px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather {
+    width: 75%;
+    height: 250px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-image: url("../images/Weather_31085.png");
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-template-areas: "title title"
+    "w-icon temp" 
+    "desc desc" 
+    "line line" 
+    "speed speed"
+    "chill chill";
+}
+
+.weather-title {
+    grid-area: title;
+}
+
+.weather-icon {
+    padding-left: 50px;
+    grid-area: w-icon;
+    width: 100px;
+    height: 100px;
+}
+
+.temperature {
+    grid-area: temp;
+    font-size: 20px;
+}
+
+.weather-description {
+    grid-area: desc;
+}
+
+.linebreak {
+    grid-area: line;
+
+}
+
+.windspeed {
+    grid-area: speed;
+}
+
+.windchill {
+    grid-area: chill;
+}
+
+.footer {
+    font-size: 7px;
 }
