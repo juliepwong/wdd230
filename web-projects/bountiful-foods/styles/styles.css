@@ -255,3 +255,8 @@ nav.responsive li {
 .footer {
     font-size: 7px;
 }
+
+.responsive {
+    width: 100%;
+    height: auto;   
+}
