@@ -46,7 +46,7 @@ const displayDirectory = (directories) => {
       let website = document.createElement('p');
       let membership = document.createElement('p');
       
-      image.setAttribute('src', image.imageurl)
+      image.setAttribute('src', directory.image)
       image.setAttribute('loading', 'lazy');
       image.setAttribute('width', '150');
       image.setAttribute('height', '300');
@@ -56,7 +56,6 @@ const displayDirectory = (directories) => {
       address.textContent = `Address: ${directory.address}`;
       phone.textContent = `Phone Number: ${directory.phone}`;
       website.textContent = `Website URLs: ${directory.url}`;
-      image.textContent = `Membership Level: ${directory.image}`;
       membership.textContent = `Membership Level: ${directory.membership}`;
 
       card.appendChild(place);
