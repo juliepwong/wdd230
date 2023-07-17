@@ -28,22 +28,24 @@ hamburger.addEventListener('click', () => {
 async function getDirectoryData(url) {
         const response = await fetch(url);
         const data = await response.json();
-        console.log(data);
+        console.log(data.places);
     displayDirectory(data.places);
 };
 console.log("test");
 getDirectoryData(url);
 
-const displayDirectory = (directory) => {
+const displayDirectory = (directories) => {
   const cards = document.querySelector('div.cards');
     
-  directory.forEach((directory) => {
+  directories.forEach((directory) => {
+      let card = document.createElement('div');
       let image = document.createElement('img');
       let address = document.createElement('p');
-      let death = document.createElement('p');
-      let length = document.createElement('p');
-      let order = document.createElement('p');
-
+      let place = document.createElement('p');
+      let phone = document.createElement('p');
+      let website = document.createElement('p');
+      let membership = document.createElement('p');
+      
       image.setAttribute('src', image.imageurl)
       image.setAttribute('loading', 'lazy');
       image.setAttribute('width', '150');
@@ -63,6 +65,8 @@ const displayDirectory = (directory) => {
       card.appendChild(website);
       card.appendChild(image);
       card.appendChild(membership);
+
+      cards.appendChild(card);
       })
 }
 
