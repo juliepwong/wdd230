@@ -26,12 +26,13 @@ hamburger.addEventListener('click', () => {
 
 // directory
 async function getDirectoryData(url) {
-    const response = await fetch(url);
-    const data = await response.json();
-    displayDirectoru(data.directory);
-}
-
-getDirectoryData(url)
+        const response = await fetch(url);
+        const data = await response.json();
+        console.log(data);
+    displayDirectory(data.places);
+};
+console.log("test");
+getDirectoryData(url);
 
 const displayDirectory = (directory) => {
   const cards = document.querySelector('div.cards');
