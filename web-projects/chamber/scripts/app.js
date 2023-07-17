@@ -55,7 +55,7 @@ const displayDirectory = (directories) => {
       place.textContent = `Place: ${directory.place}`;
       address.textContent = `Address: ${directory.address}`;
       phone.textContent = `Phone Number: ${directory.phone}`;
-      website.textContent = `Website URLs: ${directory.wesite}`;
+      website.textContent = `Website URLs: ${directory.url}`;
       image.textContent = `Membership Level: ${directory.image}`;
       membership.textContent = `Membership Level: ${directory.membership}`;
 
