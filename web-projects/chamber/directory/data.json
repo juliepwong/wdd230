@@ -2,6 +2,7 @@
     "places": [
         { 
             "image" : "https://images.unsplash.com/photo-1545580492-8859ba8323f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+            // Image by Brandi Alexandra from "Unsplash.com" 
             "place" : "Disneyland",
             "address" : "1313 S Disneyland Dr., Anaheim, CA 92802",
             "phone" : "(714) 781-4636",
@@ -11,6 +12,7 @@
         
         {
             "image" : "https://www.irvinespectrumcenter.com/media/1363/spectrum-logo-text.svg",
+            // Image from Irvine Spectrum Website" 
             "place" : "Irvine Spectrum Shopping Center",
             "address" : "",
             "phone" : "",
@@ -19,7 +21,8 @@
         },
         
         {
-            "image" : "",
+            "image" : "https://images.unsplash.com/photo-1613070561201-b0dccb982856?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+             // Image by Gustavo Zambelli from "Unsplash.com" 
             "place" : "Newport Beach",
             "address" : "Newport Beach, California",
             "phone" : "n/a",
@@ -27,58 +30,60 @@
             "membership" : "NP"
         },
 
-{
-    "image" : "",
-    "place" : "Peters Canyon Regional Park",
-    "address" : "8548 E. Canyon View Ave., Orange, CA 92869",
-    "phone" : "n/a",
-    "url" : "https://www.ocparks.com/parks-trails/peters-canyon-regional-park",
-    "membership" : "NP"
-},
+        {
+            "image" : "https://images.unsplash.com/photo-1605196560547-b2f7281b7355?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dHJhaWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1000&q=60",
+             // Image by Lucas Parker from "Unsplash.com" 
+            "place" : "Peters Canyon Regional Park",
+            "address" : "8548 E. Canyon View Ave., Orange, CA 92869",
+            "phone" : "n/a",
+            "url" : "https://www.ocparks.com/parks-trails/peters-canyon-regional-park",
+            "membership" : "NP"
+        },
 
-{
-    "image" : "",
-    "place" : "",
-    "address" : "",
-    "phone" : "",
-    "url" : "",
-    "membership" : ""
-},
+        {
+            "image" : "https://images.unsplash.com/photo-1518013895739-f7b24b50adf9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+            // Image by Irene Grace Tolentino from "Unsplash.com" 
+            "place" : "Santa Ana Zoo",
+            "address" : "1801 E. Chestnut Ave., Santa Ana, 92701",
+            "phone" : "(714) 836-4000",
+            "url" : "https://www.santaanazoo.org/",
+            "membership" : ""
+        },
 
-{
-    "image" : "",
-    "place" : "",
-    "address" : "",
-    "phone" : "",
-    "url" : "",
-    "membership" : ""
-},
+        {
+            "image" : "https://wildrivers.com/wp-content/uploads/2021/08/wildrivers-logo-300.png",
+            "place" : "Wild Rivers Water Park",
+            "address" : "10000 Great Park Blvd, Irvine, CA 92618",
+            "phone" : "(949) 749-1900",
+            "url" : "https://wildrivers.com/",
+            "membership" : ""
+        },
 
-{
-    "image" : "",
-    "place" : "",
-    "address" : "",
-    "phone" : "",
-    "url" : "",
-    "membership" : ""
-},
+        {
+            "image" : "",
+            "place" : "",
+            "address" : "",
+            "phone" : "",
+            "url" : "",
+            "membership" : ""
+        },
 
-{
-    "image" : "",
-    "place" : "",
-    "address" : "",
-    "phone" : "",
-    "url" : "",
-    "membership" : ""
-},
+        {
+            "image" : "",
+            "place" : "",
+            "address" : "",
+            "phone" : "",
+            "url" : "",
+            "membership" : ""
+        },
 
-{
-    "image" : "",
-    "place" : "",
-    "address" : "",
-    "phone" : "",
-    "url" : "",
-    "membership" : ""
-}
-]
+        {
+            "image" : "",
+            "place" : "",
+            "address" : "",
+            "phone" : "",
+            "url" : "",
+            "membership" : ""
+        }
+    ]
 }
