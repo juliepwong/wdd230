@@ -58,11 +58,11 @@ const displayDirectory = (directories) => {
       website.textContent = `Website URLs: ${directory.url}`;
       membership.textContent = `Membership Level: ${directory.membership}`;
 
+      card.appendChild(image);
       card.appendChild(place);
       card.appendChild(address);
       card.appendChild(phone);
       card.appendChild(website);
-      card.appendChild(image);
       card.appendChild(membership);
 
       cards.appendChild(card);

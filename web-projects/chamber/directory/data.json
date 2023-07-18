@@ -12,7 +12,7 @@
         
         {
             "image" : "https://www.irvinespectrumcenter.com/media/1363/spectrum-logo-text.svg",
-            // Image from Irvine Spectrum Website" 
+            // Image from Irvine Spectrum Website 
             "place" : "Irvine Spectrum Shopping Center",
             "address" : "",
             "phone" : "",
@@ -60,30 +60,33 @@
         },
 
         {
-            "image" : "",
-            "place" : "",
-            "address" : "",
-            "phone" : "",
-            "url" : "",
-            "membership" : ""
+            "image" : "https://www.southcoastplaza.com/wp-content/uploads/2023/06/SCP_Logo-S23-1.webp",
+            // Image from South Coast Plaza Website
+            "place" : "South Coast Plaza",
+            "address" : "3333 Bristol Street, Costa Mesa, CA 92626",
+            "phone" : " 1(800)782-8888",
+            "url" : "https://www.southcoastplaza.com/",
+            "membership" : "Gold"
         },
 
         {
-            "image" : "",
-            "place" : "",
-            "address" : "",
-            "phone" : "",
-            "url" : "",
-            "membership" : ""
+            "image" : "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/kb-en-us/logos/knotts-berry-logo.png",
+            // Image from Knott's Berry Farm Website
+            "place" : "Knott's Berry Farm",
+            "address" : "8039 Beach Blvd, Buena Park, CA 90620",
+            "phone" : "(714) 220-5200",
+            "url" : "https://www.knotts.com/",
+            "membership" : "Silver"
         },
 
         {
-            "image" : "",
-            "place" : "",
-            "address" : "",
-            "phone" : "",
-            "url" : "",
-            "membership" : ""
+            "image" : "https://store.portosbakery.com/cdn/shop/t/34/assets/POR_BakeAtHomeLogo_icon_opt.jpg?v=94786671014399389631575254066",
+            // Image from Porto's Bakery Website
+            "place" : "Porto's Bakery",
+            "address" : "7640 Beach Blvd, Buena Park, CA 90620",
+            "phone" : "(714)367-2030",
+            "url" : "https://www.portosbakery.com/",
+            "membership" : "Silver"
         }
     ]
 }
