@@ -12,54 +12,35 @@ document.getElementById("time").innerHTML = text;
 
 const date = new Date();
 const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-document.getElementById("date").innerHTML = date.toLocaleDateString('en-us', options);
+// document.getElementById("date").innerHTML = date.toLocaleDateString('en-us', options);
 
 async function getFruitData(url) {
     const response = await fetch(url);
     const data = await response.json();
-    // console.table(data.fruit);
-    displayFruit(data.fruit);
+    console.log(data);
+    loadMenu(data);
   }
   
   getFruitData(url);
   
-  const displayFruit = (fruit) => {
-    const cards = document.querySelector('div.cards');
-    
-    fruit.forEach((fruit) => {
-      let card = document.createElement('section');
-      let genus = document.createElement('p');
-      let name = document.createElement('p');
-      let id = document.createElement('p');
-      let family = document.createElement('p');
-      let order = document.createElement('p');
-      let nutritions = document.createElement('p');
+  const loadMenu = (fruitOptions) => {
+    const selectMenus = document.querySelectorAll("select");
+    selectMenus.forEach((menu) => {
   
-      // console.log(fruit)
-      genus.textContent = `Genus: ${fruit.genus}`;
-      name.textContent = `Name: ${fruit.name}`;
-      id.textContent = `ID: ${fruit.id}`;
-      family.textContent = `Family: ${fruit.family}`;
-      order.textContent = `Order: ${fruit.order}`;
-      nutritions.textContent = `Nutritions: ${fruit.nutritions}`;
-      carbohydrates.textContent = `Carbohydrates: ${fruit.carbohydrates}`;
-      protein.textContent = `Protein: ${fruit.protein}`;
-      fat.textContent = `Fat: ${fruit.fat}`;
-      calories.textContent = `Calories: ${fruit.calories}`;
-      sugar.textContent = `Sugar: ${fruit.sugar}`;
+      fruitOptions.forEach((fruit) => {
+        console.log(fruit.nutritions.sugar);
+        const newOption = document.createElement("option");
+        newOption.value=fruit.name;
+        newOption.text=fruit.name;
+        menu.appendChild(newOption);
   
-      card.appendChild(genus);
-      card.appendChild(name);
-      card.appendChild(id);
-      card.appendChild(family);
-      card.appendChild(order);
-      card.appendChild(nutritions);
-      card.appendChild(carbohydrates);
-      card.appendChild(protein);
-      card.appendChild(fat);
-      card.appendChild(calories);
-      card.appendChild(sugar);
-  
-      cards.appendChild(card);
-    }) //close of for each loop
+      });
+    })
   }
+
+  const onSubmit = () => {
+    const firstName = document.querySelector("#fname");
+    const mail = document.querySelector("#mail");
+    const number = document.querySelector("#number");
+    const firstFruit = document.querySelectorAll("firstFruit");
+  } 

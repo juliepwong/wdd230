@@ -269,7 +269,7 @@ nav.responsive li {
 .column {
     /* float: left; */
     padding: 1px 1px 1px 1px;
-    width: 13%;
+    /* width: 13%; */
     align-content: center;
   }
 
