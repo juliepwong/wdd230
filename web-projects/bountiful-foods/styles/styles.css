@@ -134,7 +134,7 @@ nav ul {
     width:100%;
     background-color: #FAD97F;
     list-style-type: none;
-    padding: 0;
+    padding: 10px;
     justify-content: center;
     align-items: center;
     left:0;
@@ -229,9 +229,9 @@ nav.responsive li {
 }
 
 .weather-icon {
-    padding-left: 50px;
+    /* padding-left: 50px; */
     grid-area: w-icon;
-    width: 100px;
+    /* width: 100px; */
     height: 100px;
 }
 
@@ -258,7 +258,7 @@ nav.responsive li {
 }
 
 .footer {
-    font-size: 7px;
+    font-size: 12px;
 }
 
 .responsive {
