@@ -31,6 +31,57 @@
             </nav>
         </div>
     </div>
+    <main>
+        <h1>Build Your Own Specialty Drink</h1><br><br>
+        <form action="drink">
+            <label for="fname">First Name*</label><br>
+            <input type="text" id="fname" name='firstname' placeholder="Your Name" required><br>
+            
+            <label for="mail">Email*</label><br>
+            <input type="text" name="email" placeholder="someone@gmail.com" required><br>
+        
+            <label for="number">Phone Number*</label><br>
+            <input type="text" name="phone" placeholder="1235551234" required><br>
+        
+            <label>First Fruit<br>
+                <select name="Subject">
+                    <option value="">Select Fruit</option>
+                    <option value="cards"></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </label><br>
+            <label>Second Fruit<br>
+                <select name="Subject">
+                    <option value="">Select Fruit</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </label><br>
+            <label>Third Fruit<br>
+                <select name="Subject">
+                    <option value="">Select Fruit</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </label><br>
+            <label>Special Instructions<br>
+                <textarea id="msg" name="special-instructions" rows="15" cols="101" input type="message" name="special-instructions" placeholder="Type Special Instructions Here"></textarea>
+            </label><br><br>
+            <button type="button" onclick="alert('Your order will be made soon.')">Place Order</button>
+        </form>
+    </main><br>
     <div class="grid-container">
         <div class="footer">
             <footer>&copy; 2023 Bountiful Foods .:|:. Julie Wong .:|:. WDD 230 Project .:|:. Last Updated: <span id="time"></span>
