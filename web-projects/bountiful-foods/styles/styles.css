@@ -100,6 +100,11 @@ h2 {
     color: white;
 }
 
+h3 {
+    font-size: 15px;
+    color: white;
+}
+
 nav {
     font-size: 10px;
     background-color:#05B3A7;
@@ -199,8 +204,8 @@ nav.responsive li {
 }
 
 .weather {
-    width: 75%;
-    height: 250px;
+    width: 45%;
+    height: fit-content;
     padding-top: 5px;
     padding-bottom: 5px;
     background-image: url("../images/Weather_31085.png");
@@ -262,13 +267,8 @@ nav.responsive li {
 }
 
 .column {
-    float: left;
-    width: 33.33%;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
+    /* float: left; */
+    padding: 1px 1px 1px 1px;
+    width: 13%;
+    align-content: center;
   }

@@ -91,6 +91,6 @@
 
     .weather {
         grid-area: weather;
-        width: 100%;
+        /* width: 100%; */
     }
 }
