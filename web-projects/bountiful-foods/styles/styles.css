@@ -91,8 +91,10 @@ header {
 }
 
 h1 {
+    font-family: 'Chewy', cursive, 'Source', 'Source Serif Pro', serif;
     font-size: 30px;
     color: black;
+    padding-top: 15px;
 }
 
 h2 {
@@ -103,6 +105,10 @@ h2 {
 h3 {
     font-size: 15px;
     color: white;
+}
+
+p {
+    font-family: 'Chewy', cursive, 'Source', 'Source Serif Pro', serif;
 }
 
 nav {
@@ -179,8 +185,10 @@ nav.responsive li {
 
 .logo-container {
     grid-area: logo;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .logo {
@@ -229,9 +237,7 @@ nav.responsive li {
 }
 
 .weather-icon {
-    /* padding-left: 50px; */
     grid-area: w-icon;
-    /* width: 100px; */
     height: 100px;
 }
 
@@ -258,6 +264,7 @@ nav.responsive li {
 }
 
 .footer {
+    font-family: 'Chewy', cursive, 'Source', 'Source Serif Pro', serif;
     font-size: 12px;
 }
 
@@ -267,24 +274,9 @@ nav.responsive li {
 }
 
 .column {
-    /* float: left; */
     padding: 1px 1px 1px 1px;
-    /* width: 13%; */
     align-content: center;
   }
-
-.button {
-    background-color: #397A8F;
-    border:#7392FA;
-    color: white;
-    padding: 20px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 10px;
-    margin: 5px;
-}
-
 
 /* www.w3schools.com helped me make the form */
 /* Style inputs */
