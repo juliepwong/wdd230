@@ -93,8 +93,8 @@ header {
 h1 {
     font-family: 'Chewy', cursive, 'Source', 'Source Serif Pro', serif;
     font-size: 30px;
-    color: black;
-    padding-top: 15px;
+    color: #FAD97F;
+    padding-top: 5px;
 }
 
 h2 {
@@ -164,6 +164,20 @@ nav.responsive li {
 #navmenu {
     grid-area:navigation;
 }
+
+.hero {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/engin-akyurt-Y5n8mCpvlZU-unsplash\ \(1\).jpg");
+    /* background-image: url("../images/wdd230-org.jpg"); */
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    color: #FAD97f;
+    text-align: center;
+    padding-top: 100px;
+}   
 
 .social {
     justify-self:end;
