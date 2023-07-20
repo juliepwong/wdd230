@@ -44,3 +44,17 @@ async function getFruitData(url) {
     const number = document.querySelector("#number");
     const firstFruit = document.querySelectorAll("firstFruit");
   } 
+
+//   W3School helped me create a click link. https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_webstorage_session //
+  function clickCounter() {
+    if (typeof(Storage) !== "undefined") {
+      if (localStorage.clickcount) {
+        localStorage.clickcount = Number(localStorage.clickcount)+1;
+      } else {
+        localStorage.clickcount = 1;
+      }
+      document.getElementById("result").innerHTML = "Number of " + localStorage.clickcount + " drink(s).";
+    } else {
+      document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+    }
+  }
