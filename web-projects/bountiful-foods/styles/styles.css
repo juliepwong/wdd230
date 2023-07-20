@@ -47,7 +47,24 @@ body {
     "navigation navigation navigation navigation";
     grid-template-rows: 1fr, 1fr, 1fr;
 }
-  
+
+.grid-container {
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 400px 400px 400px;
+    padding: 10px;
+}
+
+.grid-container-2 {
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: auto;
+    padding: 10px;
+    padding-left: 75px;
+    grid-template-areas: 'weather address';
+    align-items: center;
+}
+
 .banner-container {
     display: none;
     width: 100%;
@@ -226,7 +243,7 @@ nav.responsive li {
 }
 
 .weather {
-    width: 45%;
+    width: 100%;
     height: fit-content;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -279,7 +296,8 @@ nav.responsive li {
 
 .footer {
     font-family: 'Chewy', cursive, 'Source', 'Source Serif Pro', serif;
-    font-size: 12px;
+    font-size: 15px;
+    grid-column: 1/4;
 }
 
 .responsive {
@@ -341,5 +359,5 @@ input[type=text], select {
 
   /* Add rounded corners to the top left and the top right corner of the image */
   img {
-    border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 5px 5px;
   }
