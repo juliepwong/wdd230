@@ -126,6 +126,8 @@ h3 {
 
 p {
     font-family: 'Chewy', cursive, 'Source', 'Source Serif Pro', serif;
+    padding-left: 15px;
+    padding-right: 20px;
 }
 
 nav {
